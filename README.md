@@ -43,14 +43,13 @@ Below is the table that shows the data library of two geometric/spatial files us
 
 There are 52 features contained in the **`us-state.geojson`** file and 940 features contained in the **`airports.geojson`** file<br>
 
-
 ### :page_with_curl: Descriptions of Web Map Elements
 Describe the basemap, the thematic layer and the interactive features if it has.
 - list any web map element in use (e.g, scalar bar, north arrow, legend, etc.) if it has. <br>
 -
-#### :bulb: Strengths & Weaknesses
-- analyze the strengths and weakness of the examined project.
-#### :thought_balloon: Discussion
+### :bulb: Strengths & Weaknesses
+- analyze the strengths and weakness of the examined project.<br>
+### :thought_balloon: Discussion
 - disucss anything else you feel worthy to share.
 - reflect upon this project with some social theories, such as digital divide, power relationship, surveillance and/or resistance.<br>
 
