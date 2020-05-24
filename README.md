@@ -56,7 +56,6 @@ Describe the basemap, the thematic layer and the interactive features if it has.
 
 ### :flags: Credits/Acknowledgement
 The credits for this project go to:
-- Professor Bo Zhao, the instructor of the GEOG 458 A at the University of Washington for the teaching materials and knowledge sharing.
 - United States Government for providing the data file through its open-sourced database.
 - Mike Bostock whose website is inspirational for  further leaflet exercises and provides data file for this project.
 - Carto DB for providing the basemap.
