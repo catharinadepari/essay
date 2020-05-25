@@ -1,14 +1,16 @@
 # essay
 
-<img src="img/leaflet_airport.png" width='950'> <br>
-## Resilience Story of New York in the Face of COVID-19<br>
+<img src="img/front.png" width='950'> <br>
+### Digital Geography for Social Mobilization towards Natural Heritage Conservation in the U.S.<br>
 
 ### :newspaper: Introduction
-The aim of this project is to  **`ATCTs`** introduce this digital-geography project, including, but not limited to,
-  - the goal of this project (why this project was made?)
-  - the major functions
-  - the targeting audience
-  - the authors and their affilication<br>
+<b>Digital Geography</b><br>
+Digital technology has enabled scholars to explain the phenomena related to almost all aspects of urban living: politics, social, culture, economy, and nature. The relationship between the digital technology and geography takes at least into 3 forms: 1) **produced through**, meaning that the digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. Despite criticsm against its use, the engagement between the digital technology and geography has proven to be able to mobilize people power for social change; 2) **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating the urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces; 3) **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34). With this understanding, the storymap entitled 'America's Public Land Giveaway' written by *Andre Miller* is selected. The storymap provides a good example of how the author carefully designed and selected the web features in order to provide deeper understanding on the implications of government's un-updated land regulation to the natural heritage and wildlife habitats in the Western side of the U.S., and to mobilize wider supports from the U.S. wide community for land conservation.
+<b>The Case Study</b><br>
+The goal of the storymap is *to discuss the implications of the federal government and Trump administration's policy of leasing millions of acres of public lands for private oil and gas development with low and outdated rent price on conservation sites of natural heritage in the Western part of the U.S*. These natural heritage include Dinosaur National Monument and critical habitats of plant and animal species situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issue revolves around the un-updated leasing system for oil and gas industries' operations in the West. The leasing system had not been renewed since a century ago. However, the leasing has already locked up millions of acres of public land in the West. The disadvantages resulted from this are the ineffective use of the land since limited amount of oil and gas produced from the current oil and gas industries, the decrease in annual tax return at only $ 1.50 per acre for taxpayers, and risks on the natural heritage conservation. <br>
+The major functions of the storymap is to mobilize public supports for encouraging the congress to modernize the oil and gas leasing system. Through this, the land could be utilized for social, cultural, and environmental purposes which include public recreation and natural heritage conservation. <br>
+The audience targeted by the story map is public, particularly those who have dedications and interests in environment conservations. <br> The authors of the storymap are a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`**.<br>
+<img src="img/logo.png" align='center' width='200'> <br>
 
 ### :bar_chart: Systematic Architecture
 Client, Server, Services, Data **`var mymap = L.map()`** for <br>
