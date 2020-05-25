@@ -18,34 +18,48 @@ The goal of the storymap is *to discuss the implications of the federal governme
 The authors of the storymap are a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
 
 ### :bar_chart: Systematic Architecture
-In order to create, serve, and use web mapping, several different machines might be required. THe machines are often depicted in a form of digram consisting of separate levels, or tiers of architecture. The figure below shows a computer with **Web Client Application** label which extends into a little cloud with **External Internet** label. The line from this cloud continues to **Internal Network** label which then leads to the drawing of a **web-server** and **Geospatial server** located below it. The line branches to **File Server** and **Database server**. In the left, there is another computer drawing labeled as **Administrators** and **Internal Client Application**.
+In order to create, serve, and use web mapping, several different machines are required. The machines are often depicted in a diagram consisting of separate levels, or tiers of architecture. The figure below shows the **Web Client Application** label which extends into a little cloud labeled as **External Internet**. The line from this cloud continues to **Internal Network** label which then leads to **Web-server** and **Geospatial server**  below it. The line then branches to **File Server** and **Database server**. In the left, there is another computer drawing labeled as **Administrators** and **Internal Client Application**. <br>
 
 <img src="img/system_arc.png" align='center' width='900'> <br>
 
 For the case of the examined project, the systematic architecture could be explained as follows:
 - **desktop workstations** are used by the web's administrators and internal client applications to prepare data, author maps, including administer the other machines.
 - **database server** and **file server** act as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
-- **geospatial server** used to host the web services in this project is that provided by ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview>. Esri Geoportal Server is known as an open source product that since 1969, has enabled many organizations like the two nonprofit conservation organizations to manage and publish their geospatial data and resources for wide range of users.
+- **geospatial server** used to host the web services in this project is that provided by ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview>. Esri Geoportal Server is known as an open source product that since 1969, has enabled many organizations like the two nonprofit conservation organizations to manage and publish their geospatial data and resources for wide range of users. <br>
 
 <img src="img/arcgis.png" align='center' width='900'> <br>
 
-The image above shows that the storymap is powered by the use of ArcGIS provided by ESRI geroportal server.
+The image above indicates that the storymap is fully powered by the use of **`ArcGIS`** provided by ESRI geoportal server.
+
+
+<figure class="jsx-2387177467 jsx-1946561150 media-wrapper"><div class="jsx-2387177467 jsx-1946561150 media-wrapper-children"><div data-blockid="n-MMr-3X" class="jsx-484252240 image-container"><img src="https://www.arcgis.com/sharing/rest/content/items/36d517f10bb0424493e88e3d22199bb3/resources/1586798795404.png?w=2000&amp;token=EepptitWdlyN38KEPTrec64CLruzVI-E6xecA_uDpkIc6-Hy18qbr_QdALuZzbfNRL6MdpwWN2b2h_7OziLfuLeX77I-zmutmIQmh6cTau4wrMpzS9jbnPb7cR0PuhHY4gWBh7-_0ph1X_HTYR6bs4F7I5Bc6foh8_Ww6_6ycGvaEJyjtaDmBn6zwz_5TcUl" alt="" aria-label="" class="jsx-484252240 image"></div></div></figure>
 
 ### :lock_with_ink_pen: Code Analysis
-In order to investigate the codes employed by the web map, we inspected the web by right-clicking the web browser. As seen from the image below, we found the elements and codes of the web, the data flowed between the client and server, the major libraries with their functions, and whether the web supports responsive design. <br>
-<img src="img/inspection.png" align='center' width='900'> <br>
+In order to investigate the codes employed by the web map, we inspected the web by right-clicking the web browser. As seen from the image below, we found the elements and codes of the web, the data flowed between the client and server, the major libraries with their functions, and whether the web supports responsive design.<br>
+<img src="img/inspection.png" align='center' width='500'><br>
+-  **`var _paq = _paq || []`** to help client to track any application that supports JavaScript like websites
+-  **`svg viewBox="" class="" `** to scale the SVG element that means we can set the coordinates as well as width and height
+-  **`div class="esri-widget--button esri-widget esri-interactive" `** to match to other widget or small gadgets.
+-  **`g transform='matrix()' `** to Westablish a new coordinate system inside the element where the transformations apply to. This means that the units specified for the element and its children might not follow the 1:1 pixel mapping, but are also distorted and scaled according to the transformation.
+-  **`figure class ='' `** to display a piece of content, generally images with an optional caption. The figure
 
-#### Data Flows Between Client and server
+#### Data Flows Between Client and Server
+The data flowed between the client and server include supporting information from other resources and linked to the web. These data include:
+- the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851>. It is used to support the author's argument that the leasing system on land for oil and gas drilling was outdated. <br><img src="img/data1.png" align='center' width='500'><br>
+-the spatial distribution of federal oil and gas leases comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration<br><img src="img/data3.png" align='center' width='500'><br>
+- the spatial distribution of national parks, monuments, conservation areas, and wilderness areas, including the prioritized sage-grouse habitat, and mule deer migration corridor<br><img src="img/data4.png" align='center' width='500'><br>
+- the spatial conflict between the industries' exploration sites and the mule deer migration corridor<br><img src="img/data5.png" align='center' width='500'><br>
 
+#### Libraries
+The data flowed between the client and server include supporting information from other resources and linked to the web. These data include:
 | **Library**      | **Functions** |
 | ------------------ | ------------- |
 | airports.geojson   | AIRPRTX010    |
 
-
-Inspect the code of this project, especially look into the following issues.
-  - What are the data flowed in between the client and server.
-  - The major libaries in use and their functions.
-  - Does this project support responsive design?<br>
+A good interactive web map should be responsive to different users and settings. REsponsive design is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. Inespecting the web's codes, the examined web map design could be concluded as a responsive one because of the following evidences:
+- **adaptive cartography**: the web map designs changes based on different use and user contexts. The codes used by the web map is <br><img src="img/data5.png" align='center' width='500'><br>
+- **fluid grid**: an interlocking set of horizontal rows and vertical columns in a webpage responsively sized based on relative percentage<img src="img/data5.png" align='center' width='500'><br>
+- **mobile device**: a computing system could be held in hand, such as a smartphone or tablet<img src="img/data5.png" align='center' width='500'><br>
 
 ### :books: Data Sources
 - vectors (i.e., geojson)
@@ -76,7 +90,12 @@ Describe the basemap, the thematic layer and the interactive features if it has.
 - list any web map element in use (e.g, scalar bar, north arrow, legend, etc.) if it has. <br>
 -
 ### :bulb: Strengths & Weaknesses
-- analyze the strengths and weakness of the examined project.<br>
+#### strengths
+The strengths of the web map include:
+- it relies on responsive design which allows greater access and distribution of the Open Web Platform with cheap development. Since the web map has competencies in languages, inherent cross-platform and non-mobile support, the web map becomes a reliable resources for information to different types of groups or audience.
+#### Weaknesses
+Since the web map uses a responsive design with target to unlimited audience, the data dsiplayed in the web map reltively experiences a very slow processing and interaction speeds. This consequently requires a strong network connection by the users (Roth et al. 2018)<br>
+
 ### :thought_balloon: Discussion
 - disucss anything else you feel worthy to share.
 - reflect upon this project with some social theories, such as digital divide, power relationship, surveillance and/or resistance.<br>
