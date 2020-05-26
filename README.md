@@ -62,12 +62,14 @@ A good interactive web map should be responsive to different users and settings.
 
 ### :books: Data Sources
 #### A. Data Types
-There are two major types of data used by the web developer: vector and raster. In terms of vector, it is presented by polygons in the maps that indicate the different size of land parcel with different land leases. For instance, the map below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid (blue), and leased noncompetitively (red)<br>. Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676. <br><img src="img/vector1.png" width='900'><br>In the meantime, the raster type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map is written in the line of 880. <br><img src="img/raster1.png" width='900'><br>
+There are two major types of data used by the web developer: vector and raster. In terms of vector, it is presented by polygons in the maps that indicate the different size of land parcel with different land leases.
 
 | Data type  |Format      | Descriptions |
 | ------------------- | ----------------------- | ----------- |
 | *geojson*  | vector | polygons of land lots/parcels to show 3 types of land leases |
 | *tilelayer* | raster | land contours in the U.S. states|
+
+For instance, the map below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid (blue), and leased noncompetitively (red)<br>. Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676. <br><img src="img/vector1.png" width='900'><br>In the meantime, the raster type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map is written in the line of 880. <br><img src="img/raster1.png" width='900'><br>
 
 #### B. Critiques on the UI/UX
 The **`UI (User Interface)`** and **`UX (User Experience)`** Design are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) considers **`each and every element`** that shapes the experience such as how it affects the users' feelings and the easiness of users to access the web map for their own goals. The UI design on the other hand, focuses on the appearance, presentation, and interactivity of the web map with user. <br>
