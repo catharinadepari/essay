@@ -44,25 +44,25 @@ In order to investigate the codes employed by the web map, we inspected the web 
 
 ### A. Data Flows Between Client and Server
 The data flowed between the client and server come not only from the two nonprofit organizations' in-depth studies, but also information from other resources which are linked to the web. The data obtained from the web map include:
-- the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851>, which is used to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br><img src="img/data1.png" width='500'><br>
-- the spatial distribution of federal oil and gas leases comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration<br><img src="img/data3.png" width='500'><br>
-- the spatial distribution of national parks, monuments, conservation areas, and wilderness areas, including the prioritized sage-grouse habitat, and mule deer migration corridor<br><img src="img/data4.png" width='500'><br>
-- the spatial conflict between the industries' exploration sites and the mule deer migration corridor<br><img src="img/data5.png" width='500'><br>
+- the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851>, which is used to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br><img src="img/data1.png" width='900'><br>
+- the spatial distribution of federal oil and gas leases comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration<br><img src="img/data3.png" width='900'><br>
+- the spatial distribution of national parks, monuments, conservation areas, and wilderness areas, including the prioritized sage-grouse habitat, and mule deer migration corridor<br><img src="img/data4.png" width='900'><br>
+- the spatial conflict between the industries' exploration sites and the mule deer migration corridor<br><img src="img/data5.png" width='900'><br>
 
 ### B. Libraries
 Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library. The script tag for this is **script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"** <br>. The **`analytics.js`** library has the same function as **`Google Analytics`**, and is classified as a JavaScript library that is utilized to measure how users interact with the web map.
 
 A good interactive web map should be responsive to different users and settings. Responsive design is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. Inspecting the web's codes, the examined project is a responsive web map design particularly because it uses the following:<br>
 - **`META TAGS`**
-- The meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)<br> with code: **meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"**.<br><img src="img/app2.png" width='500'><br>.
-- With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code **meta name="mobile-web-app-capable" content="yes"**.<br><img src="img/app5.png" width='500'><br>.
+- The meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)<br> with code: **meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"**.<br><img src="img/app2.png" width='900'><br>.
+- With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code **meta name="mobile-web-app-capable" content="yes"**.<br><img src="img/app5.png" width='900'><br>.
 - **`DIV TAGS`**:
-- The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code: **div class="page-container"**.<br><img src="img/app3.png" align='center' width='500'><br>
-- The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center.<br>The code used by the web map is: **div class="container full-screen main"**.<br><img src="img/app4.png" width='500'><br>
+- The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code: **div class="page-container"**.<br><img src="img/app3.png" width='900'><br>
+- The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center.<br>The code used by the web map is: **div class="container full-screen main"**.<br><img src="img/app4.png" width='900'><br>
 
 ### :books: Data Sources
 #### A. Data Types
-There are two major types of data used by the web developer: vector and raster. In terms of vector, it is presented by polygons in the maps that indicate the different size of land parcel with different land leases. For instance, the map below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid (blue), and leased noncompetitively (red)<br>. Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676. <br><img src="img/vector1.png" width='800'><br>In the meantime, the raster type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map is written in the line of 880. <br><img src="img/raster1.png" width='800'><br>
+There are two major types of data used by the web developer: vector and raster. In terms of vector, it is presented by polygons in the maps that indicate the different size of land parcel with different land leases. For instance, the map below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid (blue), and leased noncompetitively (red)<br>. Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676. <br><img src="img/vector1.png" width='900'><br>In the meantime, the raster type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map is written in the line of 880. <br><img src="img/raster1.png" width='900'><br>
 
 | Data type  |Format      | Descriptions |
 | ------------------- | ----------------------- | ----------- |
@@ -73,12 +73,12 @@ There are two major types of data used by the web developer: vector and raster. 
 The **`UI (User Interface)`** and **`UX (User Experience)`** Design are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) considers **`each and every element`** that shapes the experience such as how it affects the users' feelings and the easiness of users to access the web map for their own goals. The UI design on the other hand, focuses on the appearance, presentation, and interactivity of the web map with user. <br>
 In general, the web map has successfully proved that a 'simplicity' combined with a thoughtful selections on interactive elements could effectively convey their comprehensive research-based data. In details, the UI and UX designs of the web map be explained as follows:<br>
 
-- user gets a good impression on the problem will be discussed through an background picture of an oil company along with simple three buttons at the top-right corner and think arrow which tells user to scroll down to continue read.<br><img src="img/in1.png" width='500'><br>
+- user gets a good impression on the problem will be discussed through an background picture of an oil company along with simple three buttons at the top-right corner and think arrow which tells user to scroll down to continue read.<br><img src="img/in1.png" width='900'><br>
 - users can expand the thematic map by clicking the icon at the top-right and clicking the legend at the left-bottom. This makes users easily read, observe, and interact with the map. Clicking the expland icon again will bring the user back to former page with brief narrative.<br><img src="img/in2.png" width='500'><br>
-- users are automatically interacted with zoomed in map as they scroll down the National Dinosaur Monument page<br><img src="img/in3.png" width='500'><br>
-- users could zoom in and zoom out the map as they wish<br><img src="img/in4.png" width='500'><br>
+- users are automatically interacted with zoomed in map as they scroll down the National Dinosaur Monument page<br><img src="img/in3.png" width='900'><br>
+- users could zoom in and zoom out the map as they wish<br><img src="img/in4.png" width='900'><br>
 - users can choose each item of the list to view each content of the story map in systematic way
-<br><img src="img/in5.png" width='500'><br>
+<br><img src="img/in5.png" width='900'><br>
 
 ### :page_with_curl: Descriptions of Web Map Elements
 The basemap used in the webmap is attributed to those in **`Esri Gallery`** as can be seen from the screenshot below.<br><script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"></script><br>
@@ -93,7 +93,7 @@ There are several thematic maps used in the web map which are:
 Each thematic map is produced from the layer that uses the researchers' GeoJson data files or the overlays between several layers that use different GeoJson data files. Each layer is combined with the ESRI basemap and positioned on the top of the basemap. <br>
 The web map developers used tilelayers from Esri. As can be seen from the screenshot below, the web developed uses a scrip tag refering to **`esri`** layers with scrip tag: **script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"**<br>
 
-<br><img src="img/tiles.png" width='500'><br><script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"></script><br>
+<br><img src="img/tiles.png" width='900'><br><script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"></script><br>
 
 The interactive elements used by the web map developers include:
 - **`Interactive Map View`**
