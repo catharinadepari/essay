@@ -44,9 +44,9 @@ The systematic architecture of the web map is explained as follows:
 - *geospatial server* used to host the web services in this project is ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview> supported by ESRI. **Esri Geoportal Server** is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for wide range of users.<br>
 
 ### :lock_with_ink_pen: Code Analysis
-To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.
+In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.
 <br>
-*First*, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
+*First*, the code the developers used to enable client to track any applications that supports JavaScript: <br>
 
 ```
 var _paq = _paq || [];
@@ -64,7 +64,7 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Second*, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
+*Second*, the code the developers used for scaling the SVG (Scalable Vector Graphics) that allow developers to set the coordinates, width and height
 <br>
 ```
 <svg viewBox="0 0 32 32" class="jsx-2552718285">
@@ -74,24 +74,17 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Third*, the code for matching the web map to other widget or small gadgets:
+*Third*, the code the developers used for matching the web map to other widget or small gadgets:
 <br>
 ```
 div class="esri-widget--button esri-widget esri-interactive"
 ```
 <br>
 
-*Fourth*, the code for establishing a new coordinate system inside the element where the transformations apply to so the units specified for the element and its children will be scaled according to the transformation :
+*Fourth*, the code the developers used for establishing a new coordinate system inside the element where the transformations apply to, so the units specified for the element and its children will be scaled according to the transformation :
 <br>
 ```
 g transform='matrix()'
-```
-<br>
-
-*Fifth*, code for displaying a piece of content, generally images with an optional caption:
-<br>
-```
-figure class =
 ```
 <br>
 
