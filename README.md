@@ -151,7 +151,7 @@ meta name="mobile-web-app-capable" content="yes"
 ```
 <br>
 
-<img src="img/app5.png" width='900'>
+<img src="img/5.png" width='900'>
 <br>
 
 #### Div Tags
@@ -164,7 +164,7 @@ div class="page-container"
 ```
 <br>
 
-<img src="img/app3.png" width='1500'>
+<img src="img/3.png" width='1500'>
 <br>
 The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center. The code used by the web map is:
 <br>
@@ -174,7 +174,7 @@ div class="container full-screen main"
 ```
 <br>
 
-<img src="img/app4.png" width='900'>
+<img src="img/4.png" width='900'>
 <br>
 
 ### :books: Data Sources
