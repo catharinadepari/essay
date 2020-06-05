@@ -105,11 +105,18 @@ The data used by the wed developer come from the two nonprofit organizations' ow
 <img src="img/data5.png" width='900'><br>
 
 ### B. Libraries<br>
-Libraries used in this web map includes **css**, **js**, **jquesry**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
+Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
 ```
+| Library                                                                               | Version | Descriptions           |
+| ------------------------------------------------------------------------------------- | ------- | ---------------------- |
+| ![CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)                              | -       | Cascading Style Sheets |
+| ![JS](https://www.javascript.com/)                                                    | -       | JavaScript             |
+| ![JQuery](https://jquery.com/)                                                        |         |                        |
+| ![Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs) |         | Analytic.Js            |
+
 
 <br>
 The analytics.js library has the same function as Google Analytics and is classified as a JavaScript library. The analytic.js tag's specific function is to measure how often users interact with the web map.
