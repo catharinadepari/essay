@@ -11,7 +11,7 @@ Digital technology has long enabled scholars to explain phenomena related to alm
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating the urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
 - **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34).<br>
 
-With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the author carefully designed and selected interactive elements that is integrated to a ctorymap style. It convinces public in a persuasive way about the implications of the U.S. government's unreformed land leasing system in the Western part of this country and hope of mobilizing civic power for the land leasing system reformation and natural heritage conservation.<br>
+> With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the author carefully designed and selected interactive elements that is integrated to a ctorymap style. It convinces public in a persuasive way about the implications of the U.S. government's unreformed land leasing system in the Western part of this country and hope of mobilizing civic power for the land leasing system reformation and natural heritage conservation.<br>
 
 ### B. Case Study<br>
 The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with low and outdated rent price and its impacts on the natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and critical habitats of plant and animal species situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
@@ -52,10 +52,12 @@ To investigate the codes employed by the web map, I inspected the web map by rig
 
 <img src="img/inspection.png" width='500'><br>
 
-First, to enable client to track any applications that supports JavaScript, the code the developers used is:
-<code>
+First, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
+
+```
 **var _paq = _paq || []**
-</code>
+```
+{: .language-ruby}
 
 Second, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
 -  **svg viewBox="" class=""**
