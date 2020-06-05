@@ -50,7 +50,7 @@ As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** 
 ### :lock_with_ink_pen: Code Analysis
 To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. The screenshots below show some important elements and codes of the web, the data flowed between the client and server, the web's major libraries and codes that specifically evidence its responsiveness.<br>
 
-<img src="img/inspection.png" align='center' width='500'><br>
+<img src="img/inspection.png" width='500'><br>
 
 First, to enable client to track any applications that supports JavaScript, the code the developers used is:
 <code>
