@@ -124,7 +124,7 @@ script type="text/javascript" async="" defer="" src="https://storymaps-analytics
 ```
 
 <br>
-The **`analytics.js`** library has the same function as **`Google Analytics`**  and is classified as a JavaScript library. The tag's function is measure how often users interact with the web map.
+The analytics.js library has the same function as **Google Analytics**  and is classified as a JavaScript library. The analytic.jc tag's specific function is to measure how often users interact with the web map.
 <br>
 
 ### C. Responsive Design<br>
