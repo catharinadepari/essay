@@ -48,16 +48,27 @@ The systematic architecture of the web map is explained as follows:
 As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** provided by ESRI geoportal server.
 
 ### :lock_with_ink_pen: Code Analysis
+<br>
 To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. The screenshots below show some important elements and codes of the web, the data flowed between the client and server, the web's major libraries and codes that specifically evidence its responsiveness.<br>
 
-<img src="img/inspection.png" width='500'><br>
+<img src="img/inspection.png" width='900'><br>
 
 First, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
 
 ```
-**var _paq = _paq || []**
+var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  _paq.push(['trackAllContentImpressions']);
+  (function() {
+    var u="https://storymaps-analytics.arcgis.com/";
+    _paq.push(['setTrackerUrl', u+'analytics.php']);
+    _paq.push(['setSiteId', '7']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'analytics.js'; s.parentNode.insertBefore(g,s);
+  })();
 ```
-{: .language-ruby}
 
 Second, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
 -  **svg viewBox="" class=""**
