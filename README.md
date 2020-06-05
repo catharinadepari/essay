@@ -5,7 +5,7 @@
 ## Digital Geography for Natural Heritage Conservation Mobilization in the U.S.<br>
 
 ### :newspaper: Introduction
-### A. Digital Geography<br>
+### Digital Geography<br>
 Digital technology has long enabled scholars to explain phenomena related to almost all aspects of urban living: politics, social, culture, economy, and nature. The relationship between the digital technology and geography takes at least 3 forms:
 - **produced through**, meaning that the digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. Despite criticsm against its use, the engagement between the digital technology and geography has proven to be able to mobilize people power for social change;
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating the urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
@@ -13,7 +13,7 @@ Digital technology has long enabled scholars to explain phenomena related to alm
 
 > With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the author carefully designed and selected interactive elements that is integrated to a ctorymap style. It convinces public in a persuasive way about the implications of the U.S. government's unreformed land leasing system in the Western part of this country and hope of mobilizing civic power for the land leasing system reformation and natural heritage conservation.<br>
 
-### B. Case Study<br>
+### Case Study<br>
 The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with low and outdated rent price and its impacts on the natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and critical habitats of plant and animal species situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
 - un-updated leasing system for oil and gas industries' operations in the West and private companies' actions of taking advantages from this.
 - inproportionate composition between oil and gas industries uses and public uses in land use where 90% of the land is dedicated for the industries and only 10% is for recreational and conservation purposes.
