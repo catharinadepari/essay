@@ -224,12 +224,12 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 <br>
 
 The interactive elements used by the web map developers include:
-"1"Interactive Map View
-1. the controlable zoom-in and zoom-out
-2. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
+1. **Interactive Map View**
+    1. the controlable zoom-in and zoom-out
+    2. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
 3. the map will be enlarged as user click the expand icon on the top-right of the page/map
 <br>
-"2" Interactive Legend
+2. **Interactive Legend**
 - the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
 Besides the interactive elements, the other element is the home icon that allows user to return to the first page. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
 
@@ -245,28 +245,20 @@ The strengths of the web map are:
 The weaknesses of the web map are:<br>
 - since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
 
-<img src="img/proc.png" width='900'>
-<br>
+<img src="img/proc.png" width='900'><br>
 - some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
 
-### :thought_balloon: Discussion
-<br>
+### :thought_balloon: Discussion<br>
 The web map represents an effective use of digital geography in producing a spatial knowledge in an emotional and reflexive ways (James, et al., 2018, p. 28). **Emotional** means it develops concerns and sympathy of the users participate in solving the issue. **Reflexive** means that it encourages users to reflect the conflict and mobilize to change the undesired condition.<br> Despite the effectiveness of social media in mobilizing people is highly dependent upon a lot of factors (e.g., political system of the country, government's control, literacies, internet access) (Kay, et al., 2020, p. 355), the **data crawling technique** from social media such as Twitter might be useful to inform users about public perceptions on this spatial conflict. <br>
 
 Using a form of a story map, the web map effectively communicates its goal. The 3 narrative elements of this web map include:
 <br>
-**`Set-up Act `**
-<br>
-The **settings** are the leased lands for oil and gas drilling in ten states in the U.S.: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The **key characters** are the Trump administrators, Congress who still unreformed the leasing system policy, and the conservationists who defend the public rights over the needs of recreations and conservations. The **problem** is  the conflict between the U.S. government and conservationists, between the land commercialization/industrialization and natural heritage conservation. The **time** is framed within the Trump's administrative.
-<br>
-**`Conflict Act`**
-<br>
-The**key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.
-<br>
-**`Resolution Act`**
-<br>
-The **recommendations/solutions** are assessing the land's suitability for oil and gas leasing through comprehensive planning processes, engaging community in the planning, raising the national minimum bid from $2.00 per acre to at least $10.00 per acre, and setting up a reliable evaluation to evaluate the lessees' capacity of exploring and producing oil and gas
-<br>
+1. **Set-up Act**<br>
+The **settings** are the leased lands for oil and gas drilling in ten states in the U.S.: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The **key characters** are the Trump administrators, Congress who still unreformed the leasing system policy, and the conservationists who defend the public rights over the needs of recreations and conservations. The **problem** is  the conflict between the U.S. government and conservationists, between the land commercialization/industrialization and natural heritage conservation. The **time** is framed within the Trump's administrative.<br>
+2. **Conflict Act**<br>
+The**key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.<br>
+3. **Resolution Act**<br>
+The **recommendations/solutions** are assessing the land's suitability for oil and gas leasing through comprehensive planning processes, engaging community in the planning, raising the national minimum bid from $2.00 per acre to at least $10.00 per acre, and setting up a reliable evaluation to evaluate the lessees' capacity of exploring and producing oil and gas <br>
 
 ### :flags: Credits/Acknowledgement
 The credits for this project go to:
