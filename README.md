@@ -85,12 +85,14 @@ var _paq = _paq || [];
 div class="esri-widget--button esri-widget esri-interactive"
 ```
 <br>
+
 *Fourth*, the code for establishing a new coordinate system inside the element where the transformations apply to so the units specified for the element and its children will be scaled according to the transformation :
 <br>
 ```
 g transform='matrix()'
 ```
 <br>
+
 *Fifth*, code for displaying a piece of content, generally images with an optional caption:
 <br>
 ```
