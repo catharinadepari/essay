@@ -29,7 +29,7 @@ The **`major functions`** of the web map is to **express geographic dimension of
 
 The web map does not limit its audience to particular groups, rather to the public audience. It is expected that the story could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to revise the land leasing system and land utilization in the West.<br>
 
-The web map serves as an interactive display of geographic information that not only provides users with more detailed data but also the recent spatial conflict. Users who interact with the web will recognize how the invisible **`panopticon`** <"https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham"> along with its machine exercises power in the U.S.(Foucault 2014, 660).<br>
+The web map serves as an interactive display of geographic information that not only provides users with more detailed data but also the recent spatial conflict. Users who interact with the web will recognize how the invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercises power in the U.S.(Foucault 2014, 660).<br>
 
 The developers of the web map consists of a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
 
@@ -128,11 +128,10 @@ The analytics.js library has the same function as Google Analytics and is classi
 <br>
 
 ### C. Responsive Design<br>
-A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. Inspecting the web's codes, the examined project is a responsive web map design particularly because it uses the following elements:<br>
+A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined project is a responsive web map design  because it uses the following elements:<br>
 
-#### Meta Tags
-<br>
-The meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)
+#### META TAGS<br>
+This meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)
 <br>
 
 ```
@@ -154,8 +153,7 @@ meta name="mobile-web-app-capable" content="yes"
 <img src="img/5.png" width='900'>
 <br>
 
-#### Div Tags
-<br>
+#### DIV TAGS<br>
 The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code:
 <br>
 
@@ -190,44 +188,25 @@ For instance, the screenshot below shows three types of land leases throughout t
 
 Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676.
 <br>
-<img src="img/vector1.png" width='800'>
+<img src="img/geojson.png" width='800'>
 <br>
 In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.
 <br>
-<img src="img/raster1.png" width='800'>
+<img src="img/raster.png" width='800'>
 <br>
 
 ### B. Critiques on the UI/UX
 <br>
-The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user.<br>
-This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
+The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
 
-- users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br>
-<img src="img/in2.png" width='900'>
-<br>
-- users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.
-<br>
-<img src="img/in3.png" width='900'>
-<br>
-- users can zoom in and zoom out the map with accordance to their needs
-<br>
-<img src="img/in4.png" width='900'>
-<br>
-- users can choose each item of the page/data list to revisit each page of the web
-<br>
-<img src="img/in5.png" width='900'>
-<br>
-- users can obtain details of data of each state by clicking specific area of the map.
-<br>
-<img src="img/data6_interact.png" width='900'>
-<br>
-- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.
-<br>
-<img src="img/data7_interact2.png" width='900'>
-<br>
+- users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='900'><br>
+- users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='900'><br>
+- users can zoom in and zoom out the map with accordance to their needs<br><img src="img/inter2.png" width='900'><br>
+- users can choose each item of the page/data list to revisit each page of the web<br><img src="img/inter3.png" width='900'><br>
+- users can obtain details of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='900'><br>
+- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.<br><img src="img/data7_interact2.png" width='900'><br>
 
-### :page_with_curl: Descriptions of Web Map Elements
-<br>
+### :page_with_curl: Descriptions of Web Map Elements<br>
 The basemap used in the webmap is attributed to those in **`Esri Gallery`** with the following script tag:
 <br>
 ```
