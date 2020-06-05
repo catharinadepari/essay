@@ -164,7 +164,7 @@ div class="page-container"
 ```
 <br>
 
-<img src="img/app3.png" width='1200'>
+<img src="img/app3.png" width='1500'>
 <br>
 The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center. The code used by the web map is:
 <br>
