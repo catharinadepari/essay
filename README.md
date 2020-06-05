@@ -184,19 +184,11 @@ There are two major types of data used by the web developer: vector and raster. 
 | *geojson*  | vector | polygons of land lots/parcels to show 3 types of land leases |
 | *tilelayer* | raster | land contours in the U.S. states|
 
-For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}<br>
+For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}. The codes associated with the GeoJson files can be seen from the following screenshot.<br>
+<img src="img/geojson.png" width='800'><br>
+In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.<br><img src="img/raster.png" width='800'><br>
 
-Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676.
-<br>
-<img src="img/geojson.png" width='800'>
-<br>
-In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.
-<br>
-<img src="img/raster.png" width='800'>
-<br>
-
-### B. Critiques on the UI/UX
-<br>
+### B. Critiques on the UI/UX<br>
 The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
 
 - users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='900'><br>
