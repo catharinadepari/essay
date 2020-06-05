@@ -223,13 +223,13 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 ```
 <br>
 
-The interactive elements used by the web map developers include:<b>
-**Interactive Map View**
-- the controlable zoom-in and zoom-out
-- the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
-- the map will be enlarged as user click the expand icon on the top-right of the page/map
+The interactive elements used by the web map developers include:
+"1"Interactive Map View
+1. the controlable zoom-in and zoom-out
+2. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
+3. the map will be enlarged as user click the expand icon on the top-right of the page/map
 <br>
-**Interactive Legend**
+"2" Interactive Legend
 - the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
 Besides the interactive elements, the other element is the home icon that allows user to return to the first page. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
 
