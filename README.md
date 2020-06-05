@@ -140,7 +140,7 @@ meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1
 ```
 <br>
 
-<img src="img/app2.png" width='900'>
+<img src="img/2.png" width='900'>
 <br>
 
 With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code:
