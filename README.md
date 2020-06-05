@@ -51,7 +51,7 @@ As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** 
 <br>
 To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.<br>
 
-First, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
+*First*, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
 
 ```
 var _paq = _paq || [];
@@ -67,17 +67,35 @@ var _paq = _paq || [];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'analytics.js'; s.parentNode.insertBefore(g,s);
   })();
 ```
-{: .language-ruby}
+<br>
+*Second*, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
+<br>
+```
+<svg viewBox="0 0 32 32" class="jsx-2552718285">
+<path d="M16.707 16l10.607 10.606-.708.707L16 16.707 5.394 27.313l-.708-.707L15.293 16 4.686 5.394l.708-.707L16 15.293 26.606 4.687l.708.707z" class="jsx-2552718285">
+</path>
+</svg>
+```
+<br>
+*Third*, the code for matching the web map to other widget or small gadgets:
+<br>
+```
+div class="esri-widget--button esri-widget esri-interactive"
 
-Second, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
--  **svg viewBox="" class=""**
--  to scale the SVG element that we can set the coordinates as well as width and height
--  **div class="esri-widget--button esri-widget esri-interactive"**
--  to match to other widget or small gadgets.
--  **g transform='matrix()'**
--  to establish a new coordinate system inside the element where the transformations apply to. This means that the units specified for the element and its children might not follow the 1:1 pixel mapping, but are also distorted and scaled according to the transformation.
--  **figure class =''**
--  to display a piece of content, generally images with an optional caption.
+```
+<br>
+*Fourth*, the code for establishing a new coordinate system inside the element where the transformations apply to so the units specified for the element and its children will be scaled according to the transformation :
+<br>
+```
+g transform='matrix()'
+```
+<br>
+*Fifth*, code for displaying a piece of content, generally images with an optional caption:
+<br>
+```
+figure class =
+```
+<br>
 
 ### A. Data Flows Between Client and Server
 The data flowed between the client and server come not only from the two nonprofit organizations' in-depth studies, but also information from other resources which are linked to the web. The data obtained from the web map include:
