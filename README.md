@@ -204,8 +204,7 @@ In the meantime, the **raster** type data is presented through tilelayer which s
 The **UI (User Interface)** and **UX (User Experience)** Design are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) considers **`each element`** that can effectively influence users' experience and perceptions, and easiness to access the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. <br>
 In my opinion, this web map's developers have **integrated storymap with digital geography** and thoughfully considered the interaction between users and their web map. The UI and UX designs of this web map are explained as follows:<br>
 
-- users can expand the thematic map by clicking the icon at the top-right and clicking the legend at the left-bottom. This makes users easily read, observe, and interact with the map. Clicking the expland icon again will bring the user back to former page with brief narrative.
-<br>
+- users can expand the thematic map by clicking the icon at the top-right and clicking the legend at the left-bottom. This makes users easily read, observe, and interact with the map. Clicking the expland icon again will bring the user back to former page with brief narrative.<br>
 <img src="img/in2.png" width='900'>
 <br>
 - users captures the developers' emphasis via animated zoom on the page of National Dinosaur Monument
@@ -237,20 +236,19 @@ The basemap used in the webmap is attributed to those in **`Esri Gallery`** with
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js">
 ```
 <br>
-
 There are five thematic maps used in this web map :
 - Theme 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
 - Theme 2. dinosaur national monument map
 - Theme 3. priority sage-grouse habitat map
 - Theme 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
 - Theme 5. federal oil and gas leases still available to buy noncompetitively.
-
 <br>
 
 Each thematic map is produced from the layer that uses the researchers' GeoJson data files or the overlays between several layers that use different GeoJson data files. Each layer is then outlaid with the ESRI basemap.
 <br>
 The web map developers used tilelayers from Esri. As can be seen from the screenshot below, the web developed uses a scrip tag refering to **`esri`** layers with scrip tag:
 <br>
+
 ```
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"
 ```
@@ -292,15 +290,15 @@ The web map represents an effective use of digital geography in producing a spat
 
 Using a form of a story map, the web map effectively communicates its goal. The 3 narrative elements of this web map include:
 <br>
-**`Set-up act `**
+**`Set-up Act `**
 <br>
 The **settings** are the leased lands for oil and gas drilling in ten states in the U.S.: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The **key characters** are the Trump administrators, Congress who still unreformed the leasing system policy, and the conservationists who defend the public rights over the needs of recreations and conservations. The **problem** is  the conflict between the U.S. government and conservationists, between the land commercialization/industrialization and natural heritage conservation. The **time** is framed within the Trump's administrative.
 <br>
-**`Conflict act`**
+**`Conflict Act`**
 <br>
 The**key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.
 <br>
-**`Resolution act`**
+**`Resolution Act`**
 <br>
 The **recommendations/solutions** are assessing the land's suitability for oil and gas leasing through comprehensive planning processes, engaging community in the planning, raising the national minimum bid from $2.00 per acre to at least $10.00 per acre, and setting up a reliable evaluation to evaluate the lessees' capacity of exploring and producing oil and gas
 <br>
