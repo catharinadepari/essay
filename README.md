@@ -156,15 +156,15 @@ There are two major types of data used by the web developer: vector and raster. 
 
 | Data type  |Format      | Descriptions |
 | ------------------- | ----------------------- | ----------- |
-| *geojson*  | vector | polygons of land lots/parcels to show 3 types of land leases |
-| *tilelayer* | raster | land contours in the U.S. states|
+| *geojson*  | vector | polygons that represent land lots/parcels|
+| *tilelayer* | raster | land contours of the 10 states in the U.S.|
 
-For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}. The codes associated with the GeoJson files can be seen from the following screenshot.<br><img src="img/geojson.png" width='800'><br>
+One of the codes associated with the GeoJson files can be seen from the following screenshot.<br><img src="img/geojson.png" width='800'><br>
 
-The **raster** data is displayed through tilelayer that shows the different elevation of land contours in their areas of study. The screenshot below shows the code associated to the raster map.<br><img src="img/raster.png" width='800'><br>
+The **raster** data is displayed through tilelayer that shows the different elevation of land in the 10 states in the U.S. The screenshot below shows the code associated with the raster.<br><img src="img/raster.png" width='800'><br>
 
 ### B. Critiques on the UI/UX<br>
-The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
+The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These experiences include:<br>
 
 - users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='600'><br>
 - users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='600'><br>
@@ -188,9 +188,7 @@ There are five thematic maps used in this web map :
 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
 5. federal oil and gas leases still available to buy noncompetitively.<br>
 
-Each thematic map is produced from the layer that uses the researchers' GeoJson data files or the overlays between several layers that use different GeoJson data files. Each layer is then outlaid with the ESRI basemap.
-<br>
-The web map developers used tilelayers from Esri. As can be seen from the screenshot below, the web developed uses a scrip tag refering to **`esri`** layers with scrip tag:
+The web developer used a scrip tag refering to **`esri`** layers with following scrip tag:
 <br>
 
 ```
@@ -199,13 +197,13 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 <br>
 
 The interactive elements used by the web map developers include:
-1. **Interactive Map View**
+1. Interactive Map View
 - the controlable zoom-in and zoom-out
 - the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
 - the map will be enlarged as user click the expand icon on the top-right of the page/map<br>
-2. **Interactive Legend**
+2. Interactive Legend
 - the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
-Besides these two interactive elements, the other element is **interactive home icon**. It enables users to return to the first page of the web. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
+Besides these two interactive elements, the other element is **interactive home icon**. It enables users to return to the first page of the web. The web developer does not use scale and compas which indicate the weaknesses of this web map.<br>
 
 ### :bulb: Strengths & Weaknesses
 #### Strengths
@@ -235,16 +233,17 @@ The **recommendations/solutions** are assessing the land's suitability for oil a
 
 ### :flags: Credits/Acknowledgement
 The credits for this project go to:
-1. Andre Miller, the Wilderness Society and The Center for Western Priorities organizations for providing the inspirational story of politics-environmentalist conflict in the U.S. <br>
-2. Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.
-<br>
+- Andre Miller, the Wilderness Society and The Center for Western Priorities organizations for providing the inspirational story of politics-environmentalist conflict in the U.S. <br>
+- Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.<br>
 
 ### :link: References
-1. Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3> <br>
-2. James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.<br>
-3. Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.<br>
-4. Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101. <br>
-5. Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14. <br>
-6. Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
-7. Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
-8. Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
+- Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
+- James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.
+- Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.
+- Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101.
+- Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14.
+- Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
+- Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
+- Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
+
+Link to the web map: <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
