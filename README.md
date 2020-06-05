@@ -49,9 +49,7 @@ As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** 
 
 ### :lock_with_ink_pen: Code Analysis
 <br>
-To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. The screenshots below show some important elements and codes of the web, the data flowed between the client and server, the web's major libraries and codes that specifically evidence its responsiveness.<br>
-
-<img src="img/inspection.png" width='900'><br>
+To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.<br>
 
 First, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
 
@@ -69,6 +67,7 @@ var _paq = _paq || [];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'analytics.js'; s.parentNode.insertBefore(g,s);
   })();
 ```
+{: .language-ruby}
 
 Second, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
 -  **svg viewBox="" class=""**
