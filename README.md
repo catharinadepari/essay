@@ -23,34 +23,49 @@ It should be noted that these private companies **pay for the lands below the ma
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-surprisingly, despite the leasing system has not been renewed by Congress, it has already locked up millions of acres of public land in these states. The disadvantages resulted from this are ineffective use of the lands. It should also be noted that many oil and gas industries  produced only limited amount of these resources, the decrease in annual tax return at only $ 1.50 per acre for taxpayers, and risks on the natural heritage conservation.<br>
+Surprisingly, despite the leasing system has not been renewed by Congress, it has already locked up millions of acres of public land in these states. The disadvantages resulted from this are ineffective use of the lands. It should also be noted that many oil and gas industries  produced only limited amount of these resources, the decrease in annual tax return at only $ 1.50 per acre for taxpayers, and risks on the natural heritage conservation.<br>
 
-The **`major functions`** of the storymap is to express geographic dimension of human experience in natural heritage conservation in the Western part of the U.S. In long turn, the web map has potential to mobilize public to encourage the congress to modernize the oil and gas leasing system in these areas. Thus, the ineffective leased lands could be utilized for more proper functions: improving the life quality of societies and the protected animals and plants in the natural heritage sites. <br> For this reason, the story map does not limit its audience to particular group, rather to the public audience. It is expected that the story could develop public awareness on the issue and mobilize them to encourage congress and the U.S. government to revise the land leasing system and land utilization in the West.<br> The storymap is the evidence of the power of digital geography which enables people to recognize the urban issue and observe how the unseen **`panopticon`** <href="https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham"> along with its machine exercised power in the U.S.(Foucault 2014, 660).<br>
-The authors of the storymap are a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
+The **`major functions`** of the web map is to **express geographic dimension of human experience in natural heritage conservation in the Western part of the U.S**. In long turn, the web map has potential to mobilize public to encourage the congress to modernize the oil and gas leasing system in these areas. Thus, the ineffective leased lands could be utilized for more proper functions: improving the life quality of societies and the protected animals and plants in the natural heritage sites. <br>
+
+For this reason, the web map does not limit its audience to particular group, rather to the public audience. It is expected that the story could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to revise the land leasing system and land utilization in the West.<br>
+
+The web map serves as an interactive display of geographic information that not only tell stories but also answer users' questions regarding data or some urban issue. This web map is designed by considering **interactive display** and allows people to recognize how the invisible **`panopticon`** <href="https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham"> along with its machine exercises power in the U.S.(Foucault 2014, 660).<br>
+
+The developers of the web map are a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
 
 ### :bar_chart: Systematic Architecture
-In order to create, serve, and use web mapping, several different machines are required. The machines are often depicted in a diagram consisting of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** label which extends into a little cloud labeled as **`External Internet`**. The line from this cloud continues to **`Internal Network`** label which then leads to **`Web-server`** and **`Geospatial server`**  below it. The line then branches to **`File Server`** and **`Database server`**. In the left, there is another computer drawing labeled as **`Administrators`** and **`Internal Client Application`**.<br>
+In order to create, serve, and use web mapping, several different machines are understandbly required. The machines are often depicted in a diagram consisting of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** which extends into **`External Internet`** and then, systematically continues to **`Internal Network`**, **`Web-server`** and **`Geospatial server`**. The line then branches to 2 systems: **`File Server`** and **`Database server`**. In the left part of the diagram is another computer drawing called as **`Administrators`** and **`Internal Client Application`**.<br>
 
 <img src="img/system_arc.png" width='900'> <br>
 
 The systematic architecture of the web map is explained as follows:
 - *desktop workstations* are used by the web's administrators and internal client applications to prepare data, author maps, including administer the other machines.
 - *database server* and *file server* act as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
-- *geospatial server* used to host the web services in this project is that provided by ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview>. Esri Geoportal Server is known as an open source product that since 1969, has enabled many organizations like the two nonprofit conservation organizations to manage and publish their geospatial data and resources for wide range of users.<br>
+- *geospatial server* used to host the web services in this project is that provided by ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview>. Esri Geoportal Server is known as an open source product that since 1969 has contrbuted in enabling many organizations like the two nonprofit conservation organizations to manage and publish their geospatial data and resources for wide range of users.<br>
 
 <img src="img/arcgis.png" width='900'><br>
 
-As can be seen from the footnote of the storymap in the above image, the web map was powered by **`ArcGIS`** provided by ESRI geoportal server.
+As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** provided by ESRI geoportal server.
 
 ### :lock_with_ink_pen: Code Analysis
-In order to investigate the codes employed by the web map, we inspected the web by right-clicking the web browser. As seen from the image below, we found the elements and codes of the web, the data flowed between the client and server, the major libraries with their functions, and whether the web supports responsive design.<br>
+To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. The screenshots below show some important elements and codes of the web, the data flowed between the client and server, the web's major libraries and codes that specifically evidence its responsiveness.<br>
+
 **img src="img/inspection.png" align='center' width='500'**<br>
 
--  **var _paq = _paq || []** to help client to track any application that supports JavaScript like websites
--  **svg viewBox="" class=""** to scale the SVG element that we can set the coordinates as well as width and height
--  **div class="esri-widget--button esri-widget esri-interactive"** to match to other widget or small gadgets.
--  **g transform='matrix()'** to establish a new coordinate system inside the element where the transformations apply to. This means that the units specified for the element and its children might not follow the 1:1 pixel mapping, but are also distorted and scaled according to the transformation.
--  **figure class =''** to display a piece of content, generally images with an optional caption.
+First, to enable client to track any applications that supports JavaScript, the code the developers used is:
+<code>
+**var _paq = _paq || []**
+</code>
+
+Second, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
+-  **svg viewBox="" class=""**
+-  to scale the SVG element that we can set the coordinates as well as width and height
+-  **div class="esri-widget--button esri-widget esri-interactive"**
+-  to match to other widget or small gadgets.
+-  **g transform='matrix()'**
+-  to establish a new coordinate system inside the element where the transformations apply to. This means that the units specified for the element and its children might not follow the 1:1 pixel mapping, but are also distorted and scaled according to the transformation.
+-  **figure class =''**
+-  to display a piece of content, generally images with an optional caption.
 
 ### A. Data Flows Between Client and Server
 The data flowed between the client and server come not only from the two nonprofit organizations' in-depth studies, but also information from other resources which are linked to the web. The data obtained from the web map include:
@@ -125,7 +140,7 @@ Based on the examination over this web map, The strengths of the web map could b
 - the animation only comes as the user navigates to certain page such as the Dinosaur National Monument map where the map is automatically zooms-in. The developers strongly emphasizes this conflict between the monument site and federal oil and gas leased lands by technically zooming in the map so user could get a better view.<br>
 #### Weaknesses
 The weaknesses of the web map could be concluded as follows:<br>
-- Since the web map uses a responsive design with target to unlimited audience, the data displayed in the web map relatively has a very slow processing and interaction speeds. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
+- since the web map uses a responsive design with target to unlimited audience, the data displayed in the web map relatively has a very slow processing and interaction speeds. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
 - the web map is very effective in communicating the issue/conflict through limited interactive elements, however many pages especially the informative ones consisting of analytical graphs are too wordy. It will be best if the developers uses **`real time visualization`** to convey the transformation of the leased lands composition throughout the states from 1897 to the current time (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10). The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency.
 - the conclusion page of the web map is communicated in a writing style rather than optimizing the web map design's techniques like using interactive and animated elements or simply using linked-videos. <br>
 
