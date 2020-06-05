@@ -43,10 +43,6 @@ The systematic architecture of the web map is explained as follows:
 - *database server* and *file server* serve as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
 - *geospatial server* used to host the web services in this project is ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview> supported by ESRI. **Esri Geoportal Server** is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for wide range of users.<br>
 
-<img src="img/foot.png" width='900'><br>
-
-The web map was powered by **`ArcGIS`** produced by ESRI geoportal server.
-
 ### :lock_with_ink_pen: Code Analysis
 To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.
 <br>
@@ -101,7 +97,6 @@ figure class =
 
 ### A. Data Flows Between Client and Server<br>
 The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
-
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
 - the *spatial distribution of federal oil and gas leases* comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration.
@@ -139,18 +134,12 @@ meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1
 ```
 <br>
 
-<img src="img/2.png" width='900'>
-<br>
-
 With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code:
 <br>
 
 ```
 meta name="mobile-web-app-capable" content="yes"
 ```
-<br>
-
-<img src="img/5.png" width='900'>
 <br>
 
 #### DIV TAGS<br>
@@ -162,17 +151,12 @@ div class="page-container"
 ```
 <br>
 
-<img src="img/3.png" width='1500'>
-<br>
 The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center. The code used by the web map is:
 <br>
 
 ```
 div class="container full-screen main"
 ```
-<br>
-
-<img src="img/4.png" width='900'>
 <br>
 
 ### :books: Data Sources
@@ -185,8 +169,10 @@ There are two major types of data used by the web developer: vector and raster. 
 | *tilelayer* | raster | land contours in the U.S. states|
 
 For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}. The codes associated with the GeoJson files can be seen from the following screenshot.<br>
+
 <img src="img/geojson.png" width='800'><br>
-In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.<br><img src="img/raster.png" width='800'><br>
+In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.<br>
+<img src="img/raster.png" width='800'><br>
 
 ### B. Critiques on the UI/UX<br>
 The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
@@ -206,11 +192,11 @@ The basemap used in the webmap is attributed to those in **`Esri Gallery`** with
 ```
 <br>
 There are five thematic maps used in this web map :
-- Theme 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
-- Theme 2. dinosaur national monument map
-- Theme 3. priority sage-grouse habitat map
-- Theme 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
-- Theme 5. federal oil and gas leases still available to buy noncompetitively.
+1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
+2. dinosaur national monument map
+3. priority sage-grouse habitat map
+4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
+5. federal oil and gas leases still available to buy noncompetitively.
 <br>
 
 Each thematic map is produced from the layer that uses the researchers' GeoJson data files or the overlays between several layers that use different GeoJson data files. Each layer is then outlaid with the ESRI basemap.
@@ -225,9 +211,9 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 
 The interactive elements used by the web map developers include:
 1. **Interactive Map View**
-    1. the controlable zoom-in and zoom-out
-    2. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
-3. the map will be enlarged as user click the expand icon on the top-right of the page/map
+    a. the controlable zoom-in and zoom-out
+    b. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
+    c. the map will be enlarged as user click the expand icon on the top-right of the page/map
 <br>
 2. **Interactive Legend**
 - the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
