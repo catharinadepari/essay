@@ -48,9 +48,8 @@ The systematic architecture of the web map is explained as follows:
 As can be seen from the footnote of the web map, it was powered by **`ArcGIS`** provided by ESRI geoportal server.
 
 ### :lock_with_ink_pen: Code Analysis
+To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.
 <br>
-To investigate the codes employed by the web map, I inspected the web map by right-clicking the web browser. In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.<br>
-
 *First*, to enable client to track any applications that supports JavaScript, the code the developers used is: <br>
 
 ```
@@ -101,12 +100,11 @@ figure class =
 <br>
 
 ### A. Data Flows Between Client and Server<br>
-#### Data Flows Between Client and Server
 The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
 
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
-- the *spatial distribution of federal oil and gas leases* comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration<br>
+- the *spatial distribution of federal oil and gas leases* comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration.
 
 <img src="img/data3a.png" width='900'><br>
 
@@ -118,18 +116,18 @@ The data used by the wed developer come from the two nonprofit organizations' ow
 
 <img src="img/data5.png" width='900'><br>
 
-#### Libraries
+### B. LIbraries<br>
 Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
-
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
 ```
 
 <br>
-The **analytics.js** library has the same function as **Google Analytics** and is classified as a JavaScript library. The tag's function is measure how often users interact with the web map.
+The **`analytics.js`**  library has the same function as **`Google Analytics`**  and is classified as a JavaScript library. The tag's function is measure how often users interact with the web map.
 <br>
 
+### C. Responsive Design<br>
 A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. Inspecting the web's codes, the examined project is a responsive web map design particularly because it uses the following elements:<br>
 
 **`META TAGS`**
@@ -180,8 +178,7 @@ div class="container full-screen main"
 <br>
 
 ### :books: Data Sources
-#### A. Data Types
-<br>
+#### A. Data Types<br>
 There are two major types of data used by the web developer: vector and raster. In terms of **vector**, the polygons in the maps indicate the different size of land parcel with different land leases. <br>
 
 | Data type  |Format      | Descriptions |
@@ -189,7 +186,7 @@ There are two major types of data used by the web developer: vector and raster. 
 | *geojson*  | vector | polygons of land lots/parcels to show 3 types of land leases |
 | *tilelayer* | raster | land contours in the U.S. states|
 
-For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid (blue), and leased noncompetitively (red)<br>.
+For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}<br>
 
 Investigating the web's codes, we will find the GeoJson type of file is utilized to develop the maps. The codes associated with the GeoJson files were written in the lines of 745 and 1676.
 <br>
@@ -318,3 +315,4 @@ The credits for this project go to:
 [5] Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14. <br>
 [6] Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
 [7] Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
+[8] Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
