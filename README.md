@@ -177,12 +177,12 @@ In the meantime, the **raster** type data is presented through tilelayer which s
 ### B. Critiques on the UI/UX<br>
 The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
 
-- users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='900'><br>
-- users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='900'><br>
-- users can zoom in and zoom out the map with accordance to their needs<br><img src="img/inter2.png" width='900'><br>
-- users can choose each item of the page/data list to revisit each page of the web<br><img src="img/inter3.png" width='900'><br>
-- users can obtain details of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='900'><br>
-- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.<br><img src="img/data7_interact2.png" width='900'><br>
+- users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='600'><br>
+- users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='600'><br>
+- users can zoom in and zoom out the map with accordance to their needs<br><img src="img/inter2.png" width='600'><br>
+- users can choose each item of the page/data list to revisit each page of the web<br><img src="img/inter3.png" width='600'><br>
+- users can obtain details of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='600'><br>
+- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.<br><img src="img/data7_interact2.png" width='600'><br>
 
 ### :page_with_curl: Descriptions of Web Map Elements<br>
 The basemap used in the webmap is attributed to those in **`Esri Gallery`** with the following script tag:
@@ -191,13 +191,13 @@ The basemap used in the webmap is attributed to those in **`Esri Gallery`** with
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js">
 ```
 <br>
+
 There are five thematic maps used in this web map :
 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
 2. dinosaur national monument map
 3. priority sage-grouse habitat map
 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
-5. federal oil and gas leases still available to buy noncompetitively.
-<br>
+5. federal oil and gas leases still available to buy noncompetitively.<br>
 
 Each thematic map is produced from the layer that uses the researchers' GeoJson data files or the overlays between several layers that use different GeoJson data files. Each layer is then outlaid with the ESRI basemap.
 <br>
@@ -211,12 +211,11 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 
 The interactive elements used by the web map developers include:
 1. **Interactive Map View**
-    a. the controlable zoom-in and zoom-out
-    b. the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
-    c. the map will be enlarged as user click the expand icon on the top-right of the page/map
+- the controlable zoom-in and zoom-out
+- the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
+- the map will be enlarged as user click the expand icon on the top-right of the page/map
 <br>
-2. **Interactive Legend**
-- the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
+2. **Interactive Legend**: the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
 Besides the interactive elements, the other element is the home icon that allows user to return to the first page. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
 
 ### :bulb: Strengths & Weaknesses
@@ -230,9 +229,9 @@ The strengths of the web map are:
 #### Weaknesses
 The weaknesses of the web map are:<br>
 - since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
+- some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
 
 <img src="img/proc.png" width='900'><br>
-- some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
 
 ### :thought_balloon: Discussion<br>
 The web map represents an effective use of digital geography in producing a spatial knowledge in an emotional and reflexive ways (James, et al., 2018, p. 28). **Emotional** means it develops concerns and sympathy of the users participate in solving the issue. **Reflexive** means that it encourages users to reflect the conflict and mobilize to change the undesired condition.<br> Despite the effectiveness of social media in mobilizing people is highly dependent upon a lot of factors (e.g., political system of the country, government's control, literacies, internet access) (Kay, et al., 2020, p. 355), the **data crawling technique** from social media such as Twitter might be useful to inform users about public perceptions on this spatial conflict. <br>
