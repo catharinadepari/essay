@@ -99,74 +99,83 @@ g transform='matrix()'
 figure class =
 ```
 <br>
-
-### A. Data Flows Between Client and Server
+#### A. Data Flows Between Client and Server
 The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
 
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
-<img src="img/data1.png" width='800'><br>
-
 - the *spatial distribution of federal oil and gas leases* comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration<br>
 
-<img src="img/data3.png" width='800'><br>
+<img src="img/data3.png" width='900'><br>
 
 - the *spatial distribution of natural heritae sites*: national parks, monuments, conservation areas, wilderness areas, prioritized sage-grouse habitat, and mule deer migration corridor<br>
 
-<img src="img/data4.png" width='800'><br>
+<img src="img/data4.png" width='900'><br>
 
 - the *spatial conflict* between the industries' exploration sites and the mule deer migration corridor<br>
--
-<img src="img/data5.png" width='800'><br>
 
-### B. Libraries
+<img src="img/data5.png" width='900'><br>
+
+#### B. Libraries
 <br>
-Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library. The script tag for this is:
+Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **analytics.js** library with script tag:
 
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
 ```
+
 <br>
-The **`analytics.js`** library has the same function as **`Google Analytics`**, and is classified as a JavaScript library that is utilized to **measure how users interact with the web map**.
+The **analytics.js** library has the same function as **Google Analytics** and is classified as a JavaScript library. The tag's function is measure how often users interact with the web map.
 <br>
 
 A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. Inspecting the web's codes, the examined project is a responsive web map design particularly because it uses the following elements:<br>
 
-- **`META TAGS`**
+**`META TAGS`**
 <br>
 The meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)
 <br>
+
 ```
-**meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"
+meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"
 ```
 <br>
-<img src="img/app2.png" width='800'>
+
+<img src="img/app2.png" width='900'>
 <br>
 
 With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code:
+<br>
+
 ```
 meta name="mobile-web-app-capable" content="yes"
 ```
 <br>
-<img src="img/app5.png" width='800'>
+
+<img src="img/app5.png" width='900'>
 <br>
 
-- **`DIV TAGS`**
+**`DIV TAGS`**
 <br>
 The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code:
+<br>
+
 ```
 div class="page-container"
 ```
 <br>
+
 <img src="img/app3.png" width='900'>
 <br>
 The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center. The code used by the web map is:
+<br>
+
 ```
 div class="container full-screen main"
 ```
 <br>
-<img src="img/app4.png" width='800'>
+
+<img src="img/app4.png" width='900'>
 <br>
 
 ### :books: Data Sources
@@ -192,21 +201,22 @@ In the meantime, the **raster** type data is presented through tilelayer which s
 
 #### B. Critiques on the UI/UX
 <br>
-The **`UI (User Interface)`** and **`UX (User Experience)`** Design are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) considers **`each and every element`** that shapes the experience such as how it affects the users' feelings and the easiness of users to access the web map for their own goals. The UI design on the other hand, focuses on the appearance, presentation, and interactivity of the web map with user. <br> The web map has integrated storymap with digital geography through their data by considering the interaction between users and web map. The UI and UX designs of the web map are explained as follows:<br>
+The **UI (User Interface)** and **UX (User Experience)** Design are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) considers **`each element`** that can effectively influence users' experience and perceptions, and easiness to access the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. <br>
+In my opinion, this web map's developers have **integrated storymap with digital geography** and thoughfully considered the interaction between users and their web map. The UI and UX designs of this web map are explained as follows:<br>
 
 - users can expand the thematic map by clicking the icon at the top-right and clicking the legend at the left-bottom. This makes users easily read, observe, and interact with the map. Clicking the expland icon again will bring the user back to former page with brief narrative.
 <br>
-<img src="img/in2.png" width='500'>
+<img src="img/in2.png" width='900'>
 <br>
-- users experience interaction with map through an animated zoom as they scroll down the page of National Dinosaur Monument
+- users captures the developers' emphasis via animated zoom on the page of National Dinosaur Monument
 <br>
 <img src="img/in3.png" width='900'>
 <br>
-- users could zoom in and zoom out the map according to their needles
+- users can zoom in and zoom out the map with accordance to their needs
 <br>
 <img src="img/in4.png" width='900'>
 <br>
-- users can choose each item of the page/data list to view each content of the story map
+- users can choose each item of the page/data list to revisit each page of the web
 <br>
 <img src="img/in5.png" width='900'>
 <br>
@@ -214,9 +224,9 @@ The **`UI (User Interface)`** and **`UX (User Experience)`** Design are two cruc
 <br>
 <img src="img/data6_interact.png" width='900'>
 <br>
-- users can highlight the area they selected by using zoom in in the data box.
+- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.
 <br>
-<img src="img/data7_interact.png" width='900'>
+<img src="img/data7_interact2.png" width='900'>
 <br>
 
 ### :page_with_curl: Descriptions of Web Map Elements
@@ -246,24 +256,21 @@ The web map developers used tilelayers from Esri. As can be seen from the screen
 ```
 <br>
 
-<br>
 <img src="img/tiles.png" width='900'>
 <br>
 
 The interactive elements used by the web map developers include:
-- **`Interactive Map View`**
+**`Interactive Map View`**
 - the controlable zoom-in and zoom-out
 - the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
-- the map will be enlarged as user click the expand icon on the top-right of the page/map
-- **`Interactive Legend`**
+- the map will be enlarged as user click the expand icon on the top-right of the page/map <br>
+**`Interactive Legend`**
 - the legend will appear as user click the legend icon on the bottom-left of the page/map
 
 <br>
-
 Besides the interactive elements, the other element is the home icon that allows user to return to the first page. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
 
 ### :bulb: Strengths & Weaknesses
-<br>
 #### Strengths
 The strengths of the web map are:
 - it provides an example a responsive designed web map as it is adaptive to different users, interactive as it allows users to expand the map and legend, and mobile device friendly.
@@ -274,7 +281,7 @@ The strengths of the web map are:
 #### Weaknesses
 The weaknesses of the web map are:<br>
 - since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
-<br>
+
 <img src="img/proc.png" width='900'>
 <br>
 - some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
@@ -285,15 +292,15 @@ The web map represents an effective use of digital geography in producing a spat
 
 Using a form of a story map, the web map effectively communicates its goal. The 3 narrative elements of this web map include:
 <br>
-- **`Set-up act `**
+**`Set-up act `**
 <br>
 The **settings** are the leased lands for oil and gas drilling in ten states in the U.S.: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The **key characters** are the Trump administrators, Congress who still unreformed the leasing system policy, and the conservationists who defend the public rights over the needs of recreations and conservations. The **problem** is  the conflict between the U.S. government and conservationists, between the land commercialization/industrialization and natural heritage conservation. The **time** is framed within the Trump's administrative.
 <br>
-- **`Conflict act`**
+**`Conflict act`**
 <br>
 The**key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.
-- <br>
-- **`Resolution act`**
+<br>
+**`Resolution act`**
 <br>
 The **recommendations/solutions** are assessing the land's suitability for oil and gas leasing through comprehensive planning processes, engaging community in the planning, raising the national minimum bid from $2.00 per acre to at least $10.00 per acre, and setting up a reliable evaluation to evaluate the lessees' capacity of exploring and producing oil and gas
 <br>
