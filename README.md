@@ -68,6 +68,7 @@ var _paq = _paq || [];
   })();
 ```
 <br>
+
 *Second*, the code for scaling the SVG (Scalable Vector Graphics) which means it will allow us to set the coordinates as well as width and height
 <br>
 ```
@@ -77,11 +78,11 @@ var _paq = _paq || [];
 </svg>
 ```
 <br>
+
 *Third*, the code for matching the web map to other widget or small gadgets:
 <br>
 ```
 div class="esri-widget--button esri-widget esri-interactive"
-
 ```
 <br>
 *Fourth*, the code for establishing a new coordinate system inside the element where the transformations apply to so the units specified for the element and its children will be scaled according to the transformation :
