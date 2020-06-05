@@ -43,7 +43,7 @@ The systematic architecture of the web map is explained as follows:
 - *database server* and *file server* serve as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
 - *geospatial server* used to host the web services in this project is ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview> supported by ESRI. **Esri Geoportal Server** is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for wide range of users.<br>
 
-<img src="img/arcgis.png" width='900'><br>
+<img src="img/foot.png" width='900'><br>
 
 The web map was powered by **`ArcGIS`** produced by ESRI geoportal server.
 
