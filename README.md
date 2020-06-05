@@ -105,7 +105,7 @@ The data used by the wed developer come from the two nonprofit organizations' ow
 <img src="img/data5.png" width='900'><br>
 
 ### B. Libraries<br>
-Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
+Libraries used in this web map includes **css**, **js**, **jquesry**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
@@ -181,6 +181,9 @@ The basemap used in the webmap is attributed to those in **`Esri Gallery`** with
 ```
 <br>
 
+<img src="img/basemap.png" width='900'><br>
+
+### C. Maps and Tile Layers<br>
 There are five thematic maps used in this web map :
 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
 2. dinosaur national monument map
@@ -188,9 +191,8 @@ There are five thematic maps used in this web map :
 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
 5. federal oil and gas leases still available to buy noncompetitively.<br>
 
-The web developer used a scrip tag refering to **`esri`** layers with following scrip tag:
+The web developer used basemap tile and layers from ESRI. The scrip tag refering to **`esri`** in this web map is:
 <br>
-
 ```
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"
 ```
@@ -227,7 +229,7 @@ Using a form of a story map, the web map effectively communicates its goal. The 
 1. **Set-up Act**<br>
 The **settings** are the leased lands for oil and gas drilling in ten states in the U.S.: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The **key characters** are the Trump administrators, Congress who still unreformed the leasing system policy, and the conservationists who defend the public rights over the needs of recreations and conservations. The **problem** is  the conflict between the U.S. government and conservationists, between the land commercialization/industrialization and natural heritage conservation. The **time** is framed within the Trump's administrative.<br>
 2. **Conflict Act**<br>
-The**key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.<br>
+The **key issue** of the story is the conflict between the U.S. government and conservationists who are compelled to protect the natural heritage conservation in the ten states in the face of unrealistic land leasing system of the U.S. Unlike a common narrative or drama, this researh-based story map is built gradually from introducing the conflict to the recommendation for future spatial planniang and policy making.<br>
 3. **Resolution Act**<br>
 The **recommendations/solutions** are assessing the land's suitability for oil and gas leasing through comprehensive planning processes, engaging community in the planning, raising the national minimum bid from $2.00 per acre to at least $10.00 per acre, and setting up a reliable evaluation to evaluate the lessees' capacity of exploring and producing oil and gas <br>
 
