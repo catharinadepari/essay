@@ -116,9 +116,8 @@ The analytics.js library has the same function as Google Analytics and is classi
 <br>
 
 ### C. Responsive Design<br>
-A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined project is a responsive web map design  because it uses the following elements:<br>
+A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined project is a responsive web map design  because it uses **meta tags** and **div tags** elements.<br>
 
-#### META TAGS<br>
 This meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)
 <br>
 
@@ -135,7 +134,6 @@ meta name="mobile-web-app-capable" content="yes"
 ```
 <br>
 
-#### DIV TAGS<br>
 The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code:
 <br>
 
@@ -161,11 +159,9 @@ There are two major types of data used by the web developer: vector and raster. 
 | *geojson*  | vector | polygons of land lots/parcels to show 3 types of land leases |
 | *tilelayer* | raster | land contours in the U.S. states|
 
-For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}. The codes associated with the GeoJson files can be seen from the following screenshot.<br>
+For instance, the screenshot below shows three types of land leases throughout the U.S. states: federal oil and gas leases (yellow), those leased with minimum bid {: .gitlab-blue}, and leased noncompetitively {: .gitlab-red}. The codes associated with the GeoJson files can be seen from the following screenshot.<br><img src="img/geojson.png" width='800'><br>
 
-<img src="img/geojson.png" width='800'><br>
-In the meantime, the **raster** type data is presented through tilelayer which shows the different elevation of land contours in their areas of study. Here, one of the codes associated to the raster map that is written in the line of 880.<br>
-<img src="img/raster.png" width='800'><br>
+The **raster** data is displayed through tilelayer that shows the different elevation of land contours in their areas of study. The screenshot below shows the code associated to the raster map.<br><img src="img/raster.png" width='800'><br>
 
 ### B. Critiques on the UI/UX<br>
 The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These users' experiences include:<br>
@@ -206,22 +202,21 @@ The interactive elements used by the web map developers include:
 1. **Interactive Map View**
 - the controlable zoom-in and zoom-out
 - the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
-- the map will be enlarged as user click the expand icon on the top-right of the page/map
-<br>
-2. **Interactive Legend**: the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
-Besides the interactive elements, the other element is the home icon that allows user to return to the first page. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
+- the map will be enlarged as user click the expand icon on the top-right of the page/map<br>
+2. **Interactive Legend**
+- the legend will appear as user click the legend icon on the bottom-left of the page/map. <br>
+Besides these two interactive elements, the other element is **interactive home icon**. It enables users to return to the first page of the web. The web developer does not use scale and compas which indicate the weaknesses of this web map. <br>
 
 ### :bulb: Strengths & Weaknesses
 #### Strengths
-The strengths of the web map are:
+The strengths of the web map that I identified include:
 - it provides an example a responsive designed web map as it is adaptive to different users, interactive as it allows users to expand the map and legend, and mobile device friendly.
 - it has interactive elements that are relatively easy to navigate and help users to explore the map, and more importantly, to obtain some details about the data used for the spatial maps. Users can also explore the page without being overwhelmed with too many options.
-- it gives a suprise effect as users navigate the *Dinosaur National Monument* page where the map is automatically zooms-in. The developers bring users to the focus on the issue by zooming in the federal oil and gas leased lands that are conflicted with the heritage site.
-<br>
+- it gives a suprise effect as users navigate the *Dinosaur National Monument* page where the map is automatically zooms-in. The developers bring users to the focus on the issue by zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
 
 #### Weaknesses
 The weaknesses of the web map are:<br>
-- since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018)
+- since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018).
 - some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
 
 <img src="img/proc.png" width='900'><br>
@@ -240,16 +235,16 @@ The **recommendations/solutions** are assessing the land's suitability for oil a
 
 ### :flags: Credits/Acknowledgement
 The credits for this project go to:
-- Andre Miller, the Wilderness Society and The Center for Western Priorities organizations for providing the inspirational story of politics-environmentalist conflict in the U.S. <br>
-- Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.
+1. Andre Miller, the Wilderness Society and The Center for Western Priorities organizations for providing the inspirational story of politics-environmentalist conflict in the U.S. <br>
+2. Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.
 <br>
 
 ### :link: References
-[1] Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3> <br>
-[2] James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.<br>
-[3] Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.<br>
-[4] Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101. <br>
-[5] Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14. <br>
-[6] Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
-[7] Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
-[8] Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
+1. Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3> <br>
+2. James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.<br>
+3. Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.<br>
+4. Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101. <br>
+5. Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14. <br>
+6. Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
+7. Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
+8. Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
