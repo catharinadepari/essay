@@ -164,9 +164,9 @@ There are two major types of data used by the web developer: vector and raster. 
 | *geojson*  | vector | polygons that represent land lots/parcels|
 | *tilelayer* | raster | land contours of the 10 states in the U.S.|
 
-One of the codes associated with the GeoJson files can be seen from the following screenshot.<br><img src="img/geojson.png" width='900'><br>
+One of the codes associated with the GeoJson files can be seen from the following screenshot.<br><img src="img/geo.png" width='900'><br>
 
-The **raster** data is displayed through tilelayer that shows the different elevation of land in the 10 states in the U.S. The screenshot below shows the code associated with the raster.<br><img src="img/raster.png" width='900'><br>
+The **raster** data is displayed through tilelayer that shows the different elevation of land in the 10 states in the U.S. The screenshot below shows the code associated with the raster.<br><img src="img/rast.png" width='900'><br>
 
 #### B. Critiques on the UI/UX<br>
 The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users while accessing their web map. These experiences include:<br>
@@ -186,7 +186,7 @@ The basemap used in this project is attributed to those provided by **`Esri Gall
 ```
 <br>
 
-<img src="img/basemap.png" width='900'><br>
+<img src="img/base.png" width='900'><br>
 
 ### C. Maps and Tile Layers<br>
 There are **five thematic maps** used in this web map :
