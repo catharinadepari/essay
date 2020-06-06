@@ -243,7 +243,7 @@ The **recommendations/solutions** are assessing the land's suitability for oil a
 The credits for this project go to:
 - [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0)
 - [Center for Western Priorities](https://westernpriorities.org/about/)
-- [The Wilderness Society](https://www.wilderness.org/about-us).
+- [Wilderness Society](https://www.wilderness.org/about-us).
 - [Esri Geoportal Server](https://www.esri.com/en-us/arcgis/products/geoportal-server/overview)
 - Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.<br>
 
