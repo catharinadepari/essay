@@ -110,13 +110,13 @@ Libraries used in this web map includes **css**, **js**, **jquery**, and **analy
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
 ```
-| Library                                                                               | Version | Descriptions           |
-| ------------------------------------------------------------------------------------- | ------- | ---------------------- |
-| ![CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)                              | -       | Cascading Style Sheets |
-| ![JS](https://www.javascript.com/)                                                    | -       | JavaScript             |
-| ![JQuery](https://jquery.com/)                                                        |         |                        |
-| ![Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs) |         | Analytic.Js            |
 
+| Library                                                  | Descriptions           |
+| -------------------------------------------------------- | ---------------------- |
+| ![CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Cascading Style Sheets |
+| ![JS](https://www.javascript.com/)                       | JavaScript             |
+| ![JQuery](https://jquery.com/)                           | JQuery                 |
+| ![Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs)|Analytic.js|
 
 <br>
 The analytics.js library has the same function as Google Analytics and is classified as a JavaScript library. The analytic.js tag's specific function is to measure how often users interact with the web map.
@@ -246,13 +246,13 @@ The credits for this project go to:
 - Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.<br>
 
 ### :link: References
-- Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
-- James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.
-- Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.
-- Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101.
-- Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14.
-- Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
-- Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.
-- Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle
+[1] Andre Miller:  <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3><br>
+[2] James, A., Kitchin , R. & Leszczynski , A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), p. 25–43.<br>
+[3] Kay, S., Zhao, B. & Sui, D., 2020. Can Social Media Clear the Air? A Case Study of the Air Pollution Problem in Chinese Cities. The Professional Geographer, 67(3), pp. 351-363.<br>
+[4] Kitchina, R., Maalsen, S. & McArdle, G., 2016. The praxis and politics of building urban dashboard. Geouforum, Volume 77, pp. 93-101.<br>
+[5] Li, W., Batty, M. & Goodchild, M. F., 2019. Real-time GIS for smart cities. International Journal of Geographical Information Science, pp. 1-14.<br>
+[6] Song, Z., 2017. Map-Based Visual StoryTelling: As Assessment of Emerging Genres and Tropes. Madison: University of Wisconsin.<br>
+[7] Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.<br>
+[8] Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle<br>
 
 Link to the web map: <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
