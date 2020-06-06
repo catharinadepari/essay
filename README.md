@@ -5,7 +5,7 @@
 ## The Digital Geography for the Natural Heritage Conservation Mobilization in the U.S.<br>
 
 ### :newspaper: Introduction
-### A. Digital Geography<br>
+#### A. Digital Geography<br>
 Digital technology has long contributed in explaining phenomena that relates with almost all aspects of our contemporary world. The relationship between digital technology and geography took 3 forms:
 - **produced through**, meaning that digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. The engagement between the digital technology and geography has evidenced to be able to mobilize people power for social change;
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating  urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
@@ -13,7 +13,7 @@ Digital technology has long contributed in explaining phenomena that relates wit
 
 > With this understanding, the web map entitled [America's Public Land Giveaway](https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3) written by *Andre Miller* is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
 
-### B. Case Study<br>
+#### B. Web Map<br>
 The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with unreformed rent price on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
 - un-updated leasing system for oil and gas industries' operations in the West which allowed  private industrial companies to take this advantage.
 - inproportionate composition between oil and gas industries uses and public uses where 90% of the land is dedicated for these industries and only 10% is left for recreational and conservation purposes.
@@ -24,27 +24,26 @@ Despite the leasing system has not yet been renewed by Congress, it has already 
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-The developers of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us) and a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/).<br>
+The **`developers`** of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us) and a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/).<br>
 
 The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
-The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible [panopticon](<https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
+The **`target`** of this web map is all types of users or public audience. It serves to allow all types of users to recognize how invisible [panopticon](<https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
 
 ### :bar_chart: Systematic Architecture
-To create, serve, and use web mapping,  different types machines are required. These machines are typically depicted in a diagram that consists of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** which extends into **`External Internet`** and then, systematically continues to **`Internal Network`**, **`Web-server`** and **`Geospatial server`**. The line then branches to 2 systems: **`File Server`** and **`Database server`**. In the left part of the diagram is another computer drawing called as **`Administrators`** and **`Internal Client Application`**.<br>
+To create, serve, and use a web mapping,  different types machines are required. These machines represent separate levels or tiers of architecture. The figure below shows the *Web Client Application* which extends into *External Internet* and then, systematically continues to *Internal Network*, *Web-server* and *Geospatial server*. The line then branches to 2 systems: *File Server* and *Database server*. In the left part of the diagram is another computer drawing called as *Administrators* and *Internal Client Application*.<br>
 
 <img src="img/system_arc.png" width='900'> <br>
 
-The systematic architecture of the web map is explained as follows:
+Related to this web map, the systematic architecture can be explained as follows:
 - *desktop workstations* are used by the web's administrators and internal client applications to prepare data, author maps, including administer the other machines.
 - *database server* and *file server* serve as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
 - *geospatial server* used to host the web services in this project is ArcGIS supported by ESRI. [Esri Geoportal Server](https://www.esri.com/en-us/arcgis/products/geoportal-server/overview) is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for public consumptions.<br>
 
 ### :lock_with_ink_pen: Code Analysis
 In this part, I will discuss important elements and codes of the web, the types of data that flow between client and server, web's major libraries and web's codes that support its responsiveness.
-### A. Elements and Codes<br>
-There are four important codes that I identified from this web map.
-<br>
+#### A. Elements and Codes<br>
+There are four important codes that I identified from this web map.<br>
 *First*, to enable client to track any applications that supports JavaScript, the web developers used the following element: <br>
 
 ```
@@ -87,7 +86,7 @@ div class="esri-widget--button esri-widget esri-interactive"
 ```
 <br>
 
-### B. Data Flows Between Client and Server<br>
+#### B. Data Flows Between Client and Server<br>
 The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
@@ -103,28 +102,28 @@ The data used by the wed developer come from the two nonprofit organizations' ow
 
 <img src="img/data5.png" width='900'><br>
 
-### B. Libraries<br>
+#### C. Libraries<br>
 Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
 ```
 
-| Library                                                  | Descriptions           |
-| -------------------------------------------------------- | ---------------------- |
-| [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Cascading Style Sheets |
-| [JS](https://www.javascript.com/)                       | JavaScript             |
-| [JQuery](https://jquery.com/)                           | JQuery                 |
-| [Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs)|Analytic.js|
+| Library                                                 | Descriptions           | Function |
+| ------------------------------------------------------- | ---------------------- | -------- |
+| [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Cascading Style Sheets |language that describes the style of an HTML document and how its elements should be displayed |
+| [JS](https://www.javascript.com/)                       | JavaScript             |the programming language of HTML and the Web |
+| [JQuery](https://jquery.com/)                           | JQuery                 |handle browser incompatibilities and to simplify HTML DOM manipulation, event handling, animations, and ajax|
+| [Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs) | Analytic.js |measure the frequency of users in interacting with HTML-based map|
 
 <br>
-The analytics.js library has the same function as Google Analytics and is classified as a JavaScript library. The analytic.js tag's specific function is to measure how often users interact with the web map.
+The *analytics.js* library has the same function as *Google Analytics* and is classified as a JavaScript library. Its specific function is to measure the frequency of users in interacting with the web map.
 <br>
 
-### C. Responsive Design<br>
-A good interactive web map should be responsive to different users and settings. **Responsive design** is defined as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined project is a responsive web map design  because it uses **meta tags** and **div tags** elements.<br>
+#### D. Responsive Design<br>
+A good interactive web map should be responsive to different needs, users and settings. **Responsive design** is as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined web map is a responsive web map design  because it uses **meta tags** and **div tags** elements. The following are the elements used by this web developers.<br>
 
-This meta tag tells the browser what width it should render the viewport at (*adaptive cartography*)
+The following meta tag tells the browser what **width it should render the viewport** (*adaptive cartography*)
 <br>
 
 ```
@@ -132,7 +131,7 @@ meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1
 ```
 <br>
 
-With meta tag, the web map designs will change/adapt based on different use and user contexts, and the computing system could be held in hand, such as a smartphone or tablet (*mobile device*) with code:
+With meta tag, the web map designs will **change/adapt based on different use and contexts** where the computing system could be held in hand, such as a smartphone or tablet (*mobile device*). The code used for the developers for this function is:
 <br>
 
 ```
@@ -140,7 +139,7 @@ meta name="mobile-web-app-capable" content="yes"
 ```
 <br>
 
-The div tag interlocks set of horizontal rows and vertical columns in a webpage responsively with size based on relative percentage (*fluid grid*) with code:
+The following div tag **interlocks set of horizontal rows and vertical columns in a webpage responsively** with size based on relative percentage (*fluid grid*).
 <br>
 
 ```
@@ -148,7 +147,7 @@ div class="page-container"
 ```
 <br>
 
-The div tag adds a full width containers (which spans 100% of window) inside a container which has a fixed width and aligned center. The code used by the web map is:
+The following div tag **adds a full width containers (which spans 100% of window) inside a container** which has a fixed width and aligned center. The element for this function is:
 <br>
 
 ```
@@ -157,7 +156,7 @@ div class="container full-screen main"
 <br>
 
 ### :books: Data Sources
-### A. Data Types<br>
+#### A. Data Types<br>
 There are two major types of data used by the web developer: vector and raster. In terms of **vector**, the polygons in the maps indicate the different size of land parcel with different land leases. <br>
 
 | Data type  |Format      | Descriptions |
@@ -169,18 +168,18 @@ One of the codes associated with the GeoJson files can be seen from the followin
 
 The **raster** data is displayed through tilelayer that shows the different elevation of land in the 10 states in the U.S. The screenshot below shows the code associated with the raster.<br><img src="img/raster.png" width='800'><br>
 
-### B. Critiques on the UI/UX<br>
-The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users from their web map. These experiences include:<br>
+#### B. Critiques on the UI/UX<br>
+The **`User Interface`** and **`User Experience`** Designs are two crucial components of a web map which work closely together. Despite their similar roles, each component has different design and process. The User Experience (UX) relates with elements that are used to effectively influence users' experience, perceptions, and easiness in accessing the web map. The UI design  focuses on the appearance, presentation, and interactivity of the web map with user. This web map's developers have integrated **`storymap with digital geography`** by thoughfully considering the kinds of experience that can be obtained by users while accessing their web map. These experiences include:<br>
 
-- users can expand the thematic map by clicking the icon at the top-right and  the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='600'><br>
-- users capture the developers' emphasis after experiencing the **animated zoom** of the map provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='600'><br>
-- users can zoom in and zoom out the map with accordance to their needs<br><img src="img/inter2.png" width='600'><br>
-- users can choose each item of the page/data list to revisit each page of the web<br><img src="img/inter3.png" width='600'><br>
-- users can obtain details of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='600'><br>
-- users can highlight an area on map and obtain detailed data features. Users can also zoom in or go to next data using elements in that data box.<br><img src="img/data7_interact2.png" width='600'><br>
+- expanding the thematic map by clicking the icon at the top-right and the legend at the left-bottom of the page. This makes users easily interact with the map. Clicking the expland icon again will bring the users to the original scale of map.<br><img src="img/zoom.png" width='600'><br>
+- capturing the developers' emphasis after experiencing the **animated zoom** of the map as provided in the page of National Dinosaur Monument.<br><img src="img/inter.png" width='600'><br>
+- zooming in and zooming out the map with accordance to their needs<br><img src="img/inter2.png" width='600'><br>
+- choosing which page to revisit from the list provided in the left pane<br><img src="img/inter3.png" width='600'><br>
+- obtaining more detail of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='600'><br>
+- viewing a highlighted area of concern in the map and quickly obtain detailed data features of the area. Users can also zoom in the map or go to next page of data box.<br><img src="img/data7_interact2.png" width='600'><br>
 
 ### :page_with_curl: Descriptions of Web Map Elements<br>
-The basemap used in the webmap is attributed to those in **`Esri Gallery`** with the following script tag:
+The basemap used in this project is attributed to those provided by **`Esri Gallery`**. The script tag the web developers used for this is:
 <br>
 ```
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js">
@@ -190,21 +189,21 @@ The basemap used in the webmap is attributed to those in **`Esri Gallery`** with
 <img src="img/basemap.png" width='900'><br>
 
 ### C. Maps and Tile Layers<br>
-There are five thematic maps used in this web map :
+There are **five thematic maps** used in this web map :
 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
 2. dinosaur national monument map
 3. priority sage-grouse habitat map
 4. red-desert to hoback migration map in Southern Wyoming/mule deer migration corridor
 5. federal oil and gas leases still available to buy noncompetitively.<br>
 
-The web developer used basemap tile and layers from ESRI. The scrip tag refering to **`esri`** in this web map is:
+The web developer used basemap tile and layers from ESRI. The scrip tag used by the developers is:
 <br>
 ```
 <script type="text/javascript" charset="utf-8" src="https://js.arcgis.com/4.15/esri/layers/TileLayer.js"
 ```
 <br>
 
-The interactive elements used by the web map developers include:
+The **`interactive elements`** used by the web map's developers include:
 1. Interactive Map View
 - the controlable zoom-in and zoom-out
 - the GeoJson event where a layer will appear on certain pages, overlaying the visited page/map. For instance, when we scroll down the Dinosaur National Monument page, the federal oil and gas leased lands will appear and overlay the existing map of the Dinosaur National Monument map.
@@ -215,20 +214,20 @@ Besides these two interactive elements, the other element is **interactive home 
 
 ### :bulb: Strengths & Weaknesses
 #### Strengths
-The strengths of the web map that I identified include:
-- it provides an example a responsive designed web map as it is adaptive to different users, interactive as it allows users to expand the map and legend, and mobile device friendly.
-- it has interactive elements that are relatively easy to navigate and help users to explore the map, and more importantly, to obtain some details about the data used for the spatial maps. Users can also explore the page without being overwhelmed with too many options.
-- it gives a suprise effect as users navigate the *Dinosaur National Monument* page where the map is automatically zooms-in. The developers bring users to the focus on the issue by zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
+The strengths of the web map that I identified are:
+- the web map provides an example of **a responsive designed web map**. It is adaptive to different needs or types of users, allows users to expand the map and legend, and mobile-device friendly.
+- it has interactive elements that are **relatively easy to navigate** and allow users not only to explore the map but also to obtain **details of the spatial the data** used by the developers. Users can also explore the page **without being overwhelmed** with too many options.
+- it gives a **suprise effect** as users navigate the *Dinosaur National Monument* page where the map automatically zooms-in. The developers bring users to the focus on the issue by also automatically zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
 
 #### Weaknesses
 The weaknesses of the web map are:<br>
-- since each layer contains numerous amount of data featurs of 10 states, some maps in page of **mule migration corridor** for instance, has a very slow processing to be completely uploaded. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018).
-- some data are better displayed with **`real time visualization`** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
+- since each layer contains numerous amount of data featurs of 10 states, some **layers** in the page of **mule migration corridor** for instance, has a very **slow processing to be completely uploaded**. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018).
+- some data are better displayed with **real time visualization** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
 
 <img src="img/proc.png" width='900'><br>
 
 ### :thought_balloon: Discussion<br>
-The web map represents an effective use of digital geography in producing a spatial knowledge in an emotional and reflexive ways (James, et al., 2018, p. 28). **Emotional** means it develops concerns and sympathy of the users participate in solving the issue. **Reflexive** means that it encourages users to reflect the conflict and mobilize to change the undesired condition.<br> Despite the effectiveness of social media in mobilizing people is highly dependent upon a lot of factors (e.g., political system of the country, government's control, literacies, internet access) (Kay, et al., 2020, p. 355), the **data crawling technique** from social media such as Twitter might be useful to inform users about public perceptions on this spatial conflict. <br>
+The web map represents an effective use of digital geography in producing a spatial knowledge in an emotional and reflexive ways (James, et al., 2018, p. 28). **Emotional** means it develops concerns and sympathy of the users participate in solving  related to the issue. **Reflexive** means that it encourages users to reflect the conflict and mobilize to change the undesired condition resulted from unreformed lands leasing system in the U.S..<br> Despite the effectiveness of social media in mobilizing people is highly dependent upon a lot of factors (e.g., political system of the country, government's control, literacies, internet access) (Kay, et al., 2020, p. 355), the **data crawling technique** from social media such as Twitter might be useful to inform users about public perceptions on this spatial conflict. <br>
 
 Using a form of a story map, the web map effectively communicates its goal. The 3 narrative elements of this web map include:
 <br>
