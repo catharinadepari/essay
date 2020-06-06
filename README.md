@@ -24,6 +24,8 @@ Despite the leasing system has not yet been renewed by Congress, it has **alread
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
+The image above is the border between Colorado and Utah where oil and gas development interrupts this area and  dinosaur fossils lie within the rocks.
+
 The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) who is affiliated to a nonpartisan conservation and advocacy organization for the American West, the [Center for Western Priorities](https://westernpriorities.org/about/) and collaborates with a non-profit organization for wildlife conservation, the [Wilderness Society](https://www.wilderness.org/about-us).<br>
 
 The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developer argues that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
