@@ -28,7 +28,7 @@ The developers of the web map consists of a non-profit organization for wildlife
 
 The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
-The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
+The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible [panopticon](<https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
 
 ### :bar_chart: Systematic Architecture
 To create, serve, and use web mapping,  different types machines are required. These machines are typically depicted in a diagram that consists of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** which extends into **`External Internet`** and then, systematically continues to **`Internal Network`**, **`Web-server`** and **`Geospatial server`**. The line then branches to 2 systems: **`File Server`** and **`Database server`**. In the left part of the diagram is another computer drawing called as **`Administrators`** and **`Internal Client Application`**.<br>
@@ -38,12 +38,14 @@ To create, serve, and use web mapping,  different types machines are required. T
 The systematic architecture of the web map is explained as follows:
 - *desktop workstations* are used by the web's administrators and internal client applications to prepare data, author maps, including administer the other machines.
 - *database server* and *file server* serve as what hold the GIS data and research data of the two organizations. The data might consist of spatial data in raster or vector formats.
-- *geospatial server* used to host the web services in this project is ArcGIS <https://www.esri.com/en-us/arcgis/products/geoportal-server/overview> supported by ESRI. **Esri Geoportal Server** is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for wide range of users.<br>
+- *geospatial server* used to host the web services in this project is ArcGIS supported by ESRI. [Esri Geoportal Server](https://www.esri.com/en-us/arcgis/products/geoportal-server/overview) is an open source product that since 1969 has contributed in enabling a lot of organizations to manage and publish their geospatial data and resources for public consumptions.<br>
 
 ### :lock_with_ink_pen: Code Analysis
-In this part, I will discuss some important elements and codes of the web, the data that flow between client and server, web's major libraries and codes that specifically evidence its responsiveness.
+In this part, I will discuss important elements and codes of the web, the types of data that flow between client and server, web's major libraries and web's codes that support its responsiveness.
+### A. Elements and Codes<br>
+There are four important codes that I identified from this web map.
 <br>
-*First*, the code the developers used to enable client to track any applications that supports JavaScript: <br>
+*First*, to enable client to track any applications that supports JavaScript, the web developers used the following element: <br>
 
 ```
 var _paq = _paq || [];
@@ -61,7 +63,7 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Second*, the code the developers used for scaling the SVG (Scalable Vector Graphics) that allow developers to set the coordinates, width and height
+*Second*, to scale the SVG (Scalable Vector Graphics) in which developers can set its coordinates, width and height, the web developers used this element:
 <br>
 ```
 <svg viewBox="0 0 32 32" class="jsx-2552718285">
@@ -71,21 +73,21 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Third*, the code the developers used for matching the web map to other widget or small gadgets:
+*Third*, to match the web map to other widget or small gadgets, the web developers used this element:
 <br>
 ```
 div class="esri-widget--button esri-widget esri-interactive"
 ```
 <br>
 
-*Fourth*, the code the developers used for establishing a new coordinate system inside the element where the transformations apply to, so the units specified for the element and its children will be scaled according to the transformation :
+*Fourth*, to allow users to zoom in and out within a view, the web developers used the following element from Esri:
 <br>
 ```
-g transform='matrix()'
+<div class="esri-widget--button esri-widget esri-interactive" role="button" tabindex="0" title="Zoom in">
 ```
 <br>
 
-### A. Data Flows Between Client and Server<br>
+### B. Data Flows Between Client and Server<br>
 The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
