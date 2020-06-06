@@ -15,16 +15,16 @@ Digital technology has long contributed in explaining phenomena that relates wit
 
 #### B. Web Map<br>
 The **`goal`** of the web map is *to discuss the implications of the unreformed U.S. government's lands leasing policy on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
-- un-updated leasing system for oil and gas industries' operations in the West which allowed  private industrial companies to take this advantage.
-- inproportionate composition between oil and gas industries uses and public uses where 90% of the land is dedicated for these industries and only 10% is left for recreational and conservation purposes.
-- the Trump administration's initiative of offering 24.5 million of acres of land nationwide for these industries, hence, only about 13.5 millions of acres will be aimed for public use and conservation.
-- the land price must be paid by the private companies is **below the market price**
+- un-updated leasing system for oil and gas industries' operations in the West which then, allows private companies to take this advantage.
+- inproportionate composition between oil and gas industries uses and public uses where **90% of the land is dedicated for these industries** and **only 10% is left for recreational and conservation purposes**.
+- the Trump administration's initiative of **offering 24.5 million of acres of land nationwide for these industries**, hence, only about 13.5 millions of acres will be aimed for public use and conservation.
+- the land price must be paid by the private companies is **below the market price**. <br>
 
-Despite the leasing system has not yet been renewed by Congress, it has already locked up millions of acres of public land in these states for these industries. Based on the web developers' studies, many oil and gas industries produced only limited amount of these energy resources.<br>
+Despite the leasing system has not yet been renewed by Congress, it has **already locked up millions of acres of public land in these states for these industries**. Based on the two organizations' studies, many oil and gas industries produced only limited amount of these energy resources.<br>
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) who is affiliated to a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/) and collaborates with a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us).<br>
+The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) who is affiliated to a nonpartisan conservation and advocacy organization for the American West, the [Center for Western Priorities](https://westernpriorities.org/about/) and collaborates with a non-profit organization for wildlife conservation, the [Wilderness Society](https://www.wilderness.org/about-us).<br>
 
 The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developer argues that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
