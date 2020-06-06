@@ -18,7 +18,7 @@ The **`goal`** of the web map is *to discuss the implications of the unreformed 
 - un-updated leasing system for oil and gas industries' operations in the West which then, allows private companies to take this advantage.
 - inproportionate composition between oil and gas industries uses and public uses where **90% of the land is dedicated for these industries** and **only 10% is left for recreational and conservation purposes**.
 - the Trump administration's initiative of **offering 24.5 million of acres of land nationwide for these industries**, hence, only about 13.5 millions of acres will be aimed for public use and conservation.
-- the land price must be paid by the private companies is **below the market price**. <br>
+- the land price must be paid by the private companies which is **below the market price**. <br>
 
 Despite the leasing system has not yet been renewed by Congress, it has **already locked up millions of acres of public land in these states for these industries**. Based on the two organizations' studies, many oil and gas industries produced only limited amount of these energy resources.<br>
 
@@ -28,7 +28,7 @@ The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise
 
 The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developer argues that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
-The **`target`** of this web map is all types of users or public audience. It serves to allow all types of users to recognize how invisible [panopticon](https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
+The **`target`** of this web map is all types of users or public audience. It serves to allow all types of users to recognize how invisible [panopticon](https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S. (Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing policy in the West.<br>
 
 ### :bar_chart: Systematic Architecture
 To create, serve, and use a web mapping,  different types machines are required. These machines represent separate levels or tiers of architecture. The figure below shows the *Web Client Application* which extends into *External Internet* and then, systematically continues to *Internal Network*, *Web-server* and *Geospatial server*. The line then branches to 2 systems: *File Server* and *Database server*. In the left part of the diagram is another computer drawing called as *Administrators* and *Internal Client Application*.<br>
@@ -43,7 +43,7 @@ Related to this web map, the systematic architecture can be explained as follows
 ### :lock_with_ink_pen: Code Analysis
 In this part, I will discuss important elements and codes of the web, the types of data that flow between client and server, web's major libraries and web's codes that support its responsiveness.
 #### A. Elements and Codes<br>
-There are four important codes that I identified from this web map.<br>
+There are four important elements that I identified from this web map.<br>
 *First*, to enable client to track any applications that supports JavaScript, the web developer used the following element: <br>
 
 ```
@@ -103,11 +103,7 @@ The data used by the wed developer come from the two nonprofit organizations' st
 <img src="img/data5.png" width='900'><br>
 
 #### C. Libraries<br>
-Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by the web map's developer along with their functions is **`analytics.js`** library with script tag:
-<br>
-```
-script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
-```
+Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions related to events or AJAX, and thus, allow web map's developers to perform a task. The major libraries used by the web map's developer can be seen from the table below.
 
 | Library                                                 | Descriptions           | Function |
 | ------------------------------------------------------- | ---------------------- | -------- |
@@ -117,11 +113,15 @@ script type="text/javascript" async="" defer="" src="https://storymaps-analytics
 | [Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs) | Analytic.js |measure the frequency of users in interacting with HTML-based map|
 
 <br>
-The *analytics.js* library has the same function as *Google Analytics* and is classified as a JavaScript library. Its specific function is to measure the frequency of users in interacting with the web map.
+The *analytics.js* library has the same function as *Google Analytics* and is classified as a JavaScript library. Its specific function is to measure the frequency of users in interacting with the web map. The script tag with embedded **`analytics.js`** used by the web map's developer can be seen below:
+<br>
+```
+script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
+```
 <br>
 
 #### D. Responsive Design<br>
-A good interactive web map should be responsive to different needs, users and settings. **Responsive design** is as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined web map is a responsive web map design  because it uses **meta tags** and **div tags** elements. The following are the elements used by this web developers.<br>
+A good interactive web map should be responsive to different needs, users and settings. **Responsive design** is as a set of strategies for using the Open Web Platform that dynamically change the content, layout, and styling of a webpage based on the display device and user context. The examined web map is a responsive web map design  because it uses **meta tags** and **div tags** elements. The following are the elements used by this web map's developers.<br>
 
 The following meta tag tells the browser what **width it should render the viewport** (*adaptive cartography*)
 <br>
@@ -131,7 +131,7 @@ meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1
 ```
 <br>
 
-With meta tag, the web map designs will **change/adapt based on different use and contexts** where the computing system could be held in hand, such as a smartphone or tablet (*mobile device*). The code used for the developers for this function is:
+With meta tag, the web map designs will **change/adapt based on different use and contexts** including the computing system held in hand, such as a smartphone or tablet (*mobile device*). The meta element used by the web map's developer for this function is:
 <br>
 
 ```
@@ -147,7 +147,7 @@ div class="page-container"
 ```
 <br>
 
-The following div tag **adds a full width containers (which spans 100% of window) inside a container** which has a fixed width and aligned center. The element for this function is:
+The following div tag **adds a full width containers (which spans 100% of window) inside a container** which has a fixed width and aligned center. The element used for this function is:
 <br>
 
 ```
