@@ -215,13 +215,13 @@ The **`interactive elements`** used by the web map's developers include:
 Besides these two interactive elements, the other element is **interactive home icon**. It enables users to return to the first page of the web. The web developer does not use scale and compas which indicate the weaknesses of this web map.<br>
 
 ### :bulb: Strengths & Weaknesses
-#### Strengths
+#### A. Strengths
 The strengths of the web map that I identified are:
 - the web map provides an example of **a responsive designed web map**. It is adaptive to different needs or types of users, allows users to expand the map and legend, and mobile-device friendly.
 - it has interactive elements that are **relatively easy to navigate** and allow users not only to explore the map but also to obtain **details of the spatial the data** used by the developer. Users can also explore the page **without being overwhelmed** with too many options.
 - it gives a **suprise effect** as users navigate the *Dinosaur National Monument* page where the map automatically zooms-in. The developer bring users to the focus on the issue by also automatically zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
 
-#### Weaknesses
+#### B. Weaknesses
 The weaknesses of the web map are:<br>
 - since each layer contains numerous amount of data featurs of 10 states, some **layers** in the page of **mule migration corridor** for instance, has a very **slow processing to be completely uploaded**. This consequently requires users to have a strong network connection and high-hardware specifications with better graphic card (Roth et al. 2018).
 - some data are better displayed with **real time visualization** so it can convey the change of the spatial structure of the leased land from 1897 to the current time. The real-time data visualization has widely been used to perform real-time monitoring of critical city infrastructure and to increase transparency (Goodchild (2010) and Hudson-Smith,Batty (2014) mentioned in Li, et al., 2019, pp. 3-10).
