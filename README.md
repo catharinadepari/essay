@@ -11,7 +11,7 @@ Digital technology has long contributed in explaining phenomena that relates wit
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating  urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
 - **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34).<br>
 
-> With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
+> With this understanding, the web map entitled [America's Public Land Giveaway](https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3) written by *Andre Miller* is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
 
 ### B. Case Study<br>
 The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with unreformed rent price on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
@@ -24,9 +24,9 @@ Despite the leasing system has not yet been renewed by Congress, it has already 
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-The developers of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us)**`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
+The developers of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us) and a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/).<br>
 
-The **`major functions`** of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
+The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
 The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
 
@@ -110,10 +110,10 @@ script type="text/javascript" async="" defer="" src="https://storymaps-analytics
 
 | Library                                                  | Descriptions           |
 | -------------------------------------------------------- | ---------------------- |
-| ![CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Cascading Style Sheets |
-| ![JS](https://www.javascript.com/)                       | JavaScript             |
-| ![JQuery](https://jquery.com/)                           | JQuery                 |
-| ![Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs)|Analytic.js|
+| [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) | Cascading Style Sheets |
+| [JS](https://www.javascript.com/)                       | JavaScript             |
+| [JQuery](https://jquery.com/)                           | JQuery                 |
+| [Analytic](https://developers.google.com/analytics/devguides/collection/analyticsjs)|Analytic.js|
 
 <br>
 The analytics.js library has the same function as Google Analytics and is classified as a JavaScript library. The analytic.js tag's specific function is to measure how often users interact with the web map.
