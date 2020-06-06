@@ -11,7 +11,7 @@ Digital technology has long contributed in explaining phenomena that relates wit
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating  urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
 - **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34).<br>
 
-> With this understanding, the web map entitled [America's Public Land Giveaway](https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3) written by *Andre Miller* is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
+> With this understanding, the web map entitled [America's Public Land Giveaway](https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3) written by [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
 
 #### B. Web Map<br>
 The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with unreformed rent price on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
@@ -24,9 +24,9 @@ Despite the leasing system has not yet been renewed by Congress, it has already 
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-The **`developers`** of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us) and a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/).<br>
+The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) who is affiliated to a nonpartisan conservation and advocacy organization for the American West, [Center for Western Priorities](https://westernpriorities.org/about/) and collaborates with a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us).<br>
 
-The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
+The major functions of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developer argues that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
 The **`target`** of this web map is all types of users or public audience. It serves to allow all types of users to recognize how invisible [panopticon](<https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham) along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
 
@@ -44,7 +44,7 @@ Related to this web map, the systematic architecture can be explained as follows
 In this part, I will discuss important elements and codes of the web, the types of data that flow between client and server, web's major libraries and web's codes that support its responsiveness.
 #### A. Elements and Codes<br>
 There are four important codes that I identified from this web map.<br>
-*First*, to enable client to track any applications that supports JavaScript, the web developers used the following element: <br>
+*First*, to enable client to track any applications that supports JavaScript, the web developer used the following element: <br>
 
 ```
 var _paq = _paq || [];
@@ -62,7 +62,7 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Second*, to scale the SVG (Scalable Vector Graphics) in which developers can set its coordinates, width and height, the web developers used this element:
+*Second*, to scale the SVG (Scalable Vector Graphics) in which developers can set its coordinates, width and height, the web developer used the element:
 <br>
 ```
 <svg viewBox="0 0 32 32" class="jsx-2552718285">
@@ -72,14 +72,14 @@ var _paq = _paq || [];
 ```
 <br>
 
-*Third*, to match the web map to other widget or small gadgets, the web developers used this element:
+*Third*, to match the web map to other widget or small gadgets, the web developer used th element:
 <br>
 ```
 div class="esri-widget--button esri-widget esri-interactive"
 ```
 <br>
 
-*Fourth*, to allow users to zoom in and out within a view, the web developers used the following element from Esri:
+*Fourth*, to allow users to zoom in and out within a view, the web developer used the following element from Esri:
 <br>
 ```
 <div class="esri-widget--button esri-widget esri-interactive" role="button" tabindex="0" title="Zoom in">
@@ -87,7 +87,7 @@ div class="esri-widget--button esri-widget esri-interactive"
 <br>
 
 #### B. Data Flows Between Client and Server<br>
-The data used by the wed developer come from the two nonprofit organizations' own studies and other resources which are linked to the web. These data include:<br>
+The data used by the wed developer come from the two nonprofit organizations' studies and other resources which are linked to the web. These data include:<br>
 - the *Federal Onshore Oil and Gas Leasing Reform Act of 1987 100th Congress (1987-1988)* <https://www.congress.gov/bill/100th-congress/house-bill/2851> to support the author's argument that the leasing system on land for oil and gas drilling was very outdated.<br>
 
 - the *spatial distribution of federal oil and gas leases* comprising of those leased for minimum bid ($2 per acre), those leased noncompetitively (below $2 per acre), and leased under Trump administration.
@@ -103,7 +103,7 @@ The data used by the wed developer come from the two nonprofit organizations' ow
 <img src="img/data5.png" width='900'><br>
 
 #### C. Libraries<br>
-Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by this web map developer along with their functions is **`analytics.js`** library with script tag:
+Libraries used in this web map includes **css**, **js**, **jquery**, and **analytics.js**. Libraries in web-based javascript is used to provide various functions, whether the matter is related to events or effects or AJAX, and allows map developers to perform a task. The major libraries used by the web map's developer along with their functions is **`analytics.js`** library with script tag:
 <br>
 ```
 script type="text/javascript" async="" defer="" src="https://storymaps-analytics.arcgis.com/analytics.js"
@@ -216,8 +216,8 @@ Besides these two interactive elements, the other element is **interactive home 
 #### Strengths
 The strengths of the web map that I identified are:
 - the web map provides an example of **a responsive designed web map**. It is adaptive to different needs or types of users, allows users to expand the map and legend, and mobile-device friendly.
-- it has interactive elements that are **relatively easy to navigate** and allow users not only to explore the map but also to obtain **details of the spatial the data** used by the developers. Users can also explore the page **without being overwhelmed** with too many options.
-- it gives a **suprise effect** as users navigate the *Dinosaur National Monument* page where the map automatically zooms-in. The developers bring users to the focus on the issue by also automatically zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
+- it has interactive elements that are **relatively easy to navigate** and allow users not only to explore the map but also to obtain **details of the spatial the data** used by the developer. Users can also explore the page **without being overwhelmed** with too many options.
+- it gives a **suprise effect** as users navigate the *Dinosaur National Monument* page where the map automatically zooms-in. The developer bring users to the focus on the issue by also automatically zooming in the federal oil and gas leased lands that are conflicted with the heritage site.<br>
 
 #### Weaknesses
 The weaknesses of the web map are:<br>
@@ -240,7 +240,10 @@ The **recommendations/solutions** are assessing the land's suitability for oil a
 
 ### :flags: Credits/Acknowledgement
 The credits for this project go to:
-- Andre Miller, the Wilderness Society and The Center for Western Priorities organizations for providing the inspirational story of politics-environmentalist conflict in the U.S. <br>
+- [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0)
+- [Center for Western Priorities](https://westernpriorities.org/about/)
+- [The Wilderness Society](https://www.wilderness.org/about-us).
+- [Esri Geoportal Server](https://www.esri.com/en-us/arcgis/products/geoportal-server/overview)
 - Professor Bo Zhao, the instructor of the GEOG 458 for providing the lectures and materials to analyze the web map.<br>
 
 ### :link: References
@@ -253,4 +256,4 @@ The credits for this project go to:
 [7] Zhao, B., 2020. Geospatial Data for Digital Geographies; System Architecture for Web Mapping; Web Programming Basics I: HTML and CSS, Seattle: University of Washington.<br>
 [8] Markdown-Guide https://about.gitlab.com/handbook/markdown-guide/#puzzle<br>
 
-Link to the web map: <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
+Link here for accessing the web map: <https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3>
