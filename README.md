@@ -6,7 +6,7 @@
 
 ### :newspaper: Introduction
 #### A. Digital Geography<br>
-Digital technology has long contributed in explaining phenomena that relates with almost all aspects of our contemporary world. The relationship between digital technology and geography took 3 forms:
+Digital technology has long contributed in explaining phenomena that relate with almost all aspects of our contemporary world. The relationship between digital technology and geography took 3 forms:
 - **produced through**, meaning that digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. The engagement between the digital technology and geography has evidenced to be able to mobilize people power for social change;
 - **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating  urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
 - **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34).<br>
@@ -24,7 +24,7 @@ Despite the leasing system has not yet been renewed by Congress, it has **alread
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-The image above is the border between Colorado and Utah where oil and gas development interrupts this area and  dinosaur fossils lie within the rocks.
+>The image shows the border between Colorado and Utah where oil and gas development interrupts and  dinosaur fossils lie within the rocks.<br>
 
 The **`developer`** of the web map is [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) who is affiliated to a nonpartisan conservation and advocacy organization for the American West, the [Center for Western Priorities](https://westernpriorities.org/about/) and collaborates with a non-profit organization for wildlife conservation, the [Wilderness Society](https://www.wilderness.org/about-us).<br>
 
