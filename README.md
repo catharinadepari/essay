@@ -22,14 +22,13 @@ The **`goal`** of the web map is *to discuss the implications of the U.S. govern
 
 Despite the leasing system has not yet been renewed by Congress, it has already locked up millions of acres of public land in these states for these industries. Based on the web developers' studies, many oil and gas industries produced only limited amount of these energy resources.<br>
 
+<img src="img/dinos_abuse.png" width='900'> <br>
+
 The developers of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us)**`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
 
 The **`major functions`** of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
 
 The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
-
-<img src="img/dinos_abuse.png" width='900'> <br>
-
 
 ### :bar_chart: Systematic Architecture
 To create, serve, and use web mapping,  different types machines are required. These machines are typically depicted in a diagram that consists of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** which extends into **`External Internet`** and then, systematically continues to **`Internal Network`**, **`Web-server`** and **`Geospatial server`**. The line then branches to 2 systems: **`File Server`** and **`Database server`**. In the left part of the diagram is another computer drawing called as **`Administrators`** and **`Internal Client Application`**.<br>
