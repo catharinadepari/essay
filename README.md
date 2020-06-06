@@ -2,7 +2,7 @@
 
 <img src="img/front.png" width='950'> <br>
 <img src="img/logo.png" width='300'> <br>
-## The Digital Geography for the Natural Heritage Conservation Mobilization in the U.S.<br>
+## Digital Geography for the Natural Heritage Conservation Mobilization in the U.S.<br>
 
 ### :newspaper: Introduction
 #### A. Digital Geography<br>
@@ -14,7 +14,7 @@ Digital technology has long contributed in explaining phenomena that relates wit
 > With this understanding, the web map entitled [America's Public Land Giveaway](https://storymaps.arcgis.com/stories/36d517f10bb0424493e88e3d22199bb3) written by [Andre Miller](https://medium.com/westwise/americas-public-lands-giveaway-6bf395d759c0) is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
 
 #### B. Web Map<br>
-The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with unreformed rent price on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
+The **`goal`** of the web map is *to discuss the implications of the unreformed U.S. government's lands leasing policy on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
 - un-updated leasing system for oil and gas industries' operations in the West which allowed  private industrial companies to take this advantage.
 - inproportionate composition between oil and gas industries uses and public uses where 90% of the land is dedicated for these industries and only 10% is left for recreational and conservation purposes.
 - the Trump administration's initiative of offering 24.5 million of acres of land nationwide for these industries, hence, only about 13.5 millions of acres will be aimed for public use and conservation.
