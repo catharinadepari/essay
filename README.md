@@ -180,7 +180,7 @@ The **`User Interface`** and **`User Experience`** Designs are two crucial compo
 - obtaining more detail of data of each state by clicking specific area of the map.<br><img src="img/data6_interact.png" width='600'><br>
 - viewing a highlighted area of concern in the map and quickly obtain detailed data features of the area. Users can also zoom in the map or go to next page of data box.<br><img src="img/data7_interact2.png" width='600'><br>
 
-### :page_with_curl: Descriptions of Web Map Elements<br>
+### :page_with_curl: Thematic Maps & Interactive Elements<br>
 The basemap used in this project is attributed to those provided by **`Esri Gallery`**. The script tag the web developers used for this is:
 <br>
 ```
@@ -190,7 +190,6 @@ The basemap used in this project is attributed to those provided by **`Esri Gall
 
 <img src="img/base.png" width='900'><br>
 
-### C. Maps and Tile Layers<br>
 There are **five thematic maps** used in this web map :
 1. types of federal and oil gas leases map (minimum bids, noncompetitively bids, under Trump administration)
 2. dinosaur national monument map
