@@ -2,36 +2,34 @@
 
 <img src="img/front.png" width='950'> <br>
 <img src="img/logo.png" width='300'> <br>
-## Digital Geography for Natural Heritage Conservation Mobilization in the U.S.<br>
+## The Digital Geography for the Natural Heritage Conservation Mobilization in the U.S.<br>
 
 ### :newspaper: Introduction
 ### A. Digital Geography<br>
-Digital technology has long enabled scholars to explain phenomena related to almost all aspects of urban living: politics, social, culture, economy, and nature. The relationship between the digital technology and geography takes at least 3 forms:
-- **produced through**, meaning that the digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. Despite criticsm against its use, the engagement between the digital technology and geography has proven to be able to mobilize people power for social change;
-- **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating the urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
+Digital technology has long contributed in explaining phenomena that relates with almost all aspects of our contemporary world. The relationship between digital technology and geography took 3 forms:
+- **produced through**, meaning that digital technology is aimed at actualizing unorthodox understanding to produce geographic, politics, and spatial knowledges. The engagement between the digital technology and geography has evidenced to be able to mobilize people power for social change;
+- **produced by**, meaning that digital system served cities planning, management, governance, and research by integrating  urban big data, computational modelling, urban simulation, and interactions with diffent users and urban spaces;
 - **geographies of digital**, meaning that the digital geographies are sets of technologies that go beyond an engagement with an interface, but with spatial big data. One of the examples is the  geotagged data retrieved from Twitter that can be used to explain sociospatial dynamics in particular area to public (James, Kitchin and Leszczynski 2018, 26-34).<br>
 
-> With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the author carefully designed and selected interactive elements that is integrated to a ctorymap style. It convinces public in a persuasive way about the implications of the U.S. government's unreformed land leasing system in the Western part of this country and hope of mobilizing civic power for the land leasing system reformation and natural heritage conservation.<br>
+> With this understanding, the web map entitled **`America's Public Land Giveaway`** written by *Andre Miller* is selected for this essay. The web map provides a good example of how the integration between a story map and digital geography could increase its potentials in mobilizing civis power through rich and  evidence-based narrative. <br>
 
 ### B. Case Study<br>
-The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with low and outdated rent price and its impacts on the natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and critical habitats of plant and animal species situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
-- un-updated leasing system for oil and gas industries' operations in the West and private companies' actions of taking advantages from this.
-- inproportionate composition between oil and gas industries uses and public uses in land use where 90% of the land is dedicated for the industries and only 10% is for recreational and conservation purposes.
-- the Trump administration of offering 24.5 million acres nationwide for these industries, hence,more than 13.5 millions acres for public uses. <br>
+The **`goal`** of the web map is *to discuss the implications of the U.S. government's policy of leasing millions of acres of public lands for private oil and gas development with unreformed rent price on natural heritage conservation efforts in the Western part of the U.S*. These natural heritage include **Dinosaur National Monument** and **critical habitats of plant and animal species** situated in 10 states: Arizona, California, Colorado, Idaho, Montana, New Mexico, Nevada, Oregon, Utah, and Wyoming. The issues revolve around:
+- un-updated leasing system for oil and gas industries' operations in the West which allowed  private industrial companies to take this advantage.
+- inproportionate composition between oil and gas industries uses and public uses where 90% of the land is dedicated for these industries and only 10% is left for recreational and conservation purposes.
+- the Trump administration's initiative of offering 24.5 million of acres of land nationwide for these industries, hence, only about 13.5 millions of acres will be aimed for public use and conservation.
+- the land price must be paid by the private companies is **below the market price**
 
-It should be noted that these private companies **pay for the lands below the market price** and leave much of idle leased acres off limits to other uses. <br>
+Despite the leasing system has not yet been renewed by Congress, it has already locked up millions of acres of public land in these states for these industries. Based on the web developers' studies, many oil and gas industries produced only limited amount of these energy resources.<br>
+
+The developers of the web map consists of a non-profit organization for wildlife conservation, [The Wilderness Society](https://www.wilderness.org/about-us)**`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
+
+The **`major functions`** of the web map is to **convince public about negative implications of un-reformed oil and gas leasing system in the U.S. on the sustainability of natural heritage in those 10 states.** The web developers argue that ineffective leased lands could actually be utilized for social and conservation-related uses. <br>
+
+The web map is not targeted only to particular groups, but to public audience. It serves to allow all types of users to recognize how invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercised power in the U.S.(Foucault 2014, 660). It is expected that this research-based narrative could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to reform the land leasing system policy in the West.<br>
 
 <img src="img/dinos_abuse.png" width='900'> <br>
 
-Surprisingly, despite the leasing system has not been renewed by Congress, it has already locked up millions of acres of public land in these states. The disadvantages resulted from this are ineffective use of the lands. Based on their studies, many oil and gas industries produced only limited amount of these energy resources.<br>
-
-The **`major functions`** of the web map is to **express geographic dimension of human experience in natural heritage conservation in the Western part of the U.S**. In long turn, the web map has potential to mobilize public to encourage the congress to modernize the oil and gas leasing system in these areas. Thus, the ineffective leased lands could be utilized for more proper functions: improving the life quality of societies and the protected animals and plants in the natural heritage sites. <br>
-
-The web map does not limit its audience to particular groups, rather to the public audience. It is expected that the story could develop public awareness on the issue and mobilize them to encourage Congress and the U.S. government to revise the land leasing system and land utilization in the West.<br>
-
-The web map serves as an interactive display of geographic information that not only provides users with more detailed data but also the recent spatial conflict. Users who interact with the web will recognize how the invisible **`panopticon`** <https://www.theguardian.com/technology/2015/jul/23/panopticon-digital-surveillance-jeremy-bentham> along with its machine exercises power in the U.S.(Foucault 2014, 660).<br>
-
-The developers of the web map consists of a non-profit organization for wildlife conservation, **`﻿The Wilderness Society`** <https://www.wilderness.org/about-us> and a nonpartisan conservation and advocacy organization for the American West, **`Center for Western Priorities`** <https://westernpriorities.org/about/>.<br>
 
 ### :bar_chart: Systematic Architecture
 To create, serve, and use web mapping,  different types machines are required. These machines are typically depicted in a diagram that consists of separate levels, or tiers of architecture. The figure below shows the **`Web Client Application`** which extends into **`External Internet`** and then, systematically continues to **`Internal Network`**, **`Web-server`** and **`Geospatial server`**. The line then branches to 2 systems: **`File Server`** and **`Database server`**. In the left part of the diagram is another computer drawing called as **`Administrators`** and **`Internal Client Application`**.<br>
